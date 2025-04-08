@@ -114,7 +114,7 @@
 .profile-tab{
     .nav-item{
         .nav-link{
-            font-size: 16px;
+            font-size: 1rem;
             margin-right: 30px;
             transition: all 0.5s ease-in-out;
             border: none;
@@ -162,7 +162,7 @@
         margin: 15px 0;
     }
 	.btn-social{
-		font-size: 20px;
+		font-size: 1.25rem;
 		height: 55px;
 		display:inline-block;
 		padding: 0;
@@ -199,7 +199,7 @@
     
 	.post-title{
 		h3{
-			font-size: 24px;
+			font-size: 1.5rem;
 			@include respond ('phone'){
 				font-size:18px;
 			}

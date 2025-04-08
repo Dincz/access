@@ -226,7 +226,7 @@
         -o-transition: opacity 0.2s linear;
         transition: opacity 0.2s linear; }
     .dropzone .dz-preview .dz-remove {
-      font-size: 14px;
+      font-size: 0.875rem; ;
       text-align: center;
       display: block;
       cursor: pointer;
@@ -250,7 +250,7 @@
       line-height: 150%; }
       .dropzone .dz-preview .dz-details .dz-size {
         margin-bottom: 1em;
-        font-size: 16px; }
+        font-size: 1rem; }
       .dropzone .dz-preview .dz-details .dz-filename {
         white-space: nowrap; }
         .dropzone .dz-preview .dz-details .dz-filename:hover span {

@@ -812,7 +812,7 @@ footer .box {
     }
 
     .main-section .review .content .box .review_content p {
-        font-size: 16px
+        font-size: 1rem;
     }
 
     .main-section .review .content .box .profile .left img,

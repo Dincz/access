@@ -62,9 +62,9 @@
         li {
             margin-top: 0;
             margin-bottom: 0;
-			font-size: 18px;
+			font-size: 1.125rem;
 			@include respond('phone-land') {
-				font-size: 15px;
+				font-size: 0.9375rem;
 			}
             a{
                color: #656773; 

@@ -55,7 +55,7 @@
 
     a {
         // color: $dip;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
 
         &:hover {
@@ -147,7 +147,7 @@
             margin-bottom: 12px;
 
             a {
-                font-size: 18px;
+                font-size: 1.125rem;
             }
         }
     }
@@ -184,7 +184,7 @@
 
     a {
         // color: $white_color;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
 
         &:hover {
@@ -232,7 +232,7 @@
         }
 
         h4 {
-            font-size: 18px;
+            font-size: 1.125rem;
             // color: $title-color;
             border-bottom: 1px solid #eeeeee;
             margin-bottom: 0px;
@@ -323,7 +323,7 @@
         h4 {
             // color: $title-color;
             // font-family: $rob;
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 600;
             margin-bottom: 15px;
             cursor: pointer;
@@ -334,7 +334,7 @@
         }
 
         p {
-            font-size: 14px;
+            font-size: 0.875rem;
             line-height: 24px;
             // color: $pfont;
             font-weight: 300;
@@ -352,13 +352,13 @@
             // background: $title-color;
             color: #fff;
             // font-family: $rob;
-            font-size: 14px;
+            font-size: 0.875rem;
             font-weight: 500;
 
             &+a {
                 border-color: #eeeeee;
                 background: #fff;
-                font-size: 14px;
+                font-size: 0.875rem;
                 // color: $title-color;
             }
         }
@@ -401,7 +401,7 @@
     }
 
     .date {
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 24px;
         font-weight: 400;
     }
@@ -475,7 +475,7 @@
 
         h5 {
             margin-bottom: 0px;
-            font-size: 18px;
+            font-size: 1.125rem;
             line-height: 26px;
             text-transform: uppercase;
             color: #fff;
@@ -493,7 +493,7 @@
 
         p {
             font-weight: 300;
-            font-size: 14px;
+            font-size: 0.875rem;
             line-height: 26px;
             margin-bottom: 0px;
         }
@@ -547,12 +547,12 @@
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 600;
         margin-bottom: 8px;
 
         @media(min-width: 768px) {
-            font-size: 24px;
+            font-size: 1.5rem;
             margin-bottom: 15px;
         }
     }
@@ -562,7 +562,7 @@
 
     li {
         float: left;
-        font-size: 14px;
+        font-size: 0.875rem;
 
         a {
             color: #999999;
@@ -613,24 +613,24 @@
         }
 
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
             font-weight: 600;
             color: $white_color;
             margin-bottom: 0;
             line-height: 1.2;
 
             @media(min-width: 768px) {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
 
         p {
-            font-size: 18px;
+            font-size: 1.125rem;
             margin-bottom: 0;
             color: $white_color;
 
             @media(min-width: 768px) {
-                font-size: 18px;
+                font-size: 1.125rem;
             }
         }
     }
@@ -645,7 +645,7 @@
     // background: #fafaff;
     // padding: 30px;
     .widget_title {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin-bottom: 40px;
         // color: $title-color;
 
@@ -700,7 +700,7 @@
 
                 i,
                 span {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     color: #999999;
                 }
             }
@@ -741,7 +741,7 @@
 
                 i,
                 span {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     color: #999999;
                 }
             }
@@ -762,7 +762,7 @@
                 }
 
                 a {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     line-height: 20px;
                     color: #888888;
 
@@ -794,7 +794,7 @@
                 padding-left: 20px;
 
                 h3 {
-                    font-size: 16px;
+                    font-size: 1rem;
                     line-height: 20px;
                     margin-bottom: 6px;
                     transition: all 0.3s linear;
@@ -811,7 +811,7 @@
                 }
 
                 p {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     line-height: 21px;
                     margin-bottom: 0px;
                 }
@@ -879,7 +879,7 @@
     // .author_widget{
     //     text-align: center;
     //     h4{
-    //         font-size: 18px;
+    //         font-size: 1.125rem;
     //         line-height: 20px;
     //         // color: $title-color;
     //         margin-bottom: 5px;
@@ -891,7 +891,7 @@
     //     .social_icon{
     //         padding: 7px 0px 15px;
     //         a{
-    //             font-size: 14px;
+    //             font-size: 0.875rem;
     //             // color: $title-color;
     //             transition: all 0.2s linear;
     //             & + a{
@@ -986,7 +986,7 @@
 }
 
 .blog-pagination .page-link {
-    font-size: 14px;
+    font-size: 0.875rem;
     position: relative;
     display: block;
     padding: 0;
@@ -1061,7 +1061,7 @@
             a {
                 color: #cccccc;
                 padding: 7px;
-                font-size: 14px;
+                font-size: 0.875rem;
                 transition: all 0.2s linear;
 
                 &:hover {
@@ -1076,7 +1076,7 @@
 
         p {
             margin-bottom: 20px;
-            font-size: 15px;
+            font-size: 0.9375rem;
         }
 
         h2 {
@@ -1112,7 +1112,7 @@
         position: absolute;
 
         .lnr {
-            font-size: 20px;
+            font-size: 1.25rem;
             font-weight: 600;
         }
     }
@@ -1132,21 +1132,21 @@
         }
 
         .like-info {
-            font-size: 14px;
+            font-size: 0.875rem;
 
             i,
             span {
-                font-size: 16px;
+                font-size: 1rem;
                 margin-right: 5px;
             }
         }
 
         .comment-count {
-            font-size: 14px;
+            font-size: 0.875rem;
 
             i,
             span {
-                font-size: 16px;
+                font-size: 1rem;
                 margin-right: 5px;
             }
         }
@@ -1163,7 +1163,7 @@
 
                 i,
                 span {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     color: #999999;
                 }
 
@@ -1212,11 +1212,11 @@
 
         p {
             margin-bottom: 0;
-            font-size: 15px;
+            font-size: 0.9375rem;
         }
 
         h4 {
-            font-size: 16px;
+            font-size: 1rem;
         }
     }
 
@@ -1232,7 +1232,7 @@
         }
 
         h4 {
-            font-size: 18px;
+            font-size: 1.125rem;
             line-height: 25px;
             // color: $title-color;
         }
@@ -1326,11 +1326,11 @@
         // text-align: center;
         margin-bottom: 35px;
         // color: $title-color;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     h5 {
-        font-size: 16px;
+        font-size: 1rem;
         margin-bottom: 0px;
     }
 
@@ -1376,7 +1376,7 @@
     }
 
     .date {
-        font-size: 14px;
+        font-size: 0.875rem;
         color: #999999;
         margin-bottom: 0;
         margin-left: 20px;
@@ -1385,7 +1385,7 @@
     .comment {
         margin-bottom: 10px;
         color: #777777;
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
 
     .btn-reply {
@@ -1393,7 +1393,7 @@
         color: #888888;
         // border:1px solid #eee;
         padding: 5px 18px;
-        font-size: 14px;
+        font-size: 0.875rem;
         display: block;
         font-weight: 400;
         //  @include transform_time(.5s);
@@ -1420,7 +1420,7 @@
     h4 {
         // text-align: center;
         margin-bottom: 40px;
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 22px;
         // color: $title-color;
     }

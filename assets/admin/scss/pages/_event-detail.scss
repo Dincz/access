@@ -20,7 +20,7 @@
 		font-size:28px;
 		line-height: 40px;
 		@include respond ('phone'){
-			font-size: 18px;
+			font-size: 1.125rem;
 			line-height: 25px;
 		}
 	}

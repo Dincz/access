@@ -20,7 +20,7 @@
             bottom: 20px;
         }
         h3{
-            font-size: 30px;
+            font-size: 1.875rem;
             font-weight: 400;
             color: $theme-color;
             margin-bottom: 20px;
@@ -39,21 +39,21 @@
                 span{
                     font-family: $font3;
                     font-weight: 600;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     margin-right: 20px;
                     color: #AAB1B7;
                     @media #{$mobile_device} {
-                        font-size: 14px;
+                        font-size: 0.875rem;
                     }
                 }
                 p{
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     color: #fff;
                     font-weight: 600;
                     margin-bottom: 0;
                     display: inline-block;
                     @media #{$mobile_device} {
-                        font-size: 14px;
+                        font-size: 0.875rem;
                     }
                 }
             }

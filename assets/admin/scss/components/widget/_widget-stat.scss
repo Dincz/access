@@ -23,10 +23,10 @@
         .media-body {
             p {
                 font-weight: 500;
-				font-size: 16px;
+				font-size: 1rem;
 				line-height: 1.5;
 				@include respond('laptop') {
-					font-size: 14px;
+					font-size: 0.875rem;
 				}
                 @at-root [data-theme-version="dark"] & {
                     color: #c4c9d5;
@@ -37,13 +37,13 @@
 				font-size: 75%;
 			}
             h3{
-				font-size: 30px;
+				font-size: 1.875rem;
 				font-weight: 600;
 				margin: 0;
 				line-height: 1.2;
 			}
             h4 {
-                font-size: 24px;
+                font-size: 1.5rem;
                 display: inline-block;
 				vertical-align: middle;
             }
@@ -88,7 +88,7 @@
 		align-items:center;
 		justify-content:center;
 		border-radius: 6px;
-		font-size: 28px;
+		font-size: 1.75rem;
 	}
 }
 .bgl-primary{

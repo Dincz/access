@@ -28,17 +28,17 @@ td {
 }
 #blogSection .heading p {
     color: #afafaf;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 @media screen and (max-width: 425px) {
     #blogSection .heading p {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 @media screen and (max-width: 320px) {
     #blogSection .heading p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 #blogSection .hero_section {
@@ -111,7 +111,7 @@ td {
     text-transform: capitalize;
     border: none;
     flex: 1;
-    font-size: 16px;
+    font-size: 1rem;
     outline: none;
     font-weight: 400;
     background-color: transparent;
@@ -186,7 +186,7 @@ td {
 }
 @media screen and (max-width: 425px) {
     #blogSection .blogs .body .box a .content p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 #blogDetailSection .body {
@@ -244,7 +244,7 @@ td {
     }
 }
 #blogDetailSection .body .content .description p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 #blogDetailSection .body .content .description h2 {
@@ -273,7 +273,7 @@ td {
     border-radius: 8px;
 }
 #blogDetailSection .body .footer .box .content a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     color: #afafaf;
     text-decoration: underline;
@@ -285,7 +285,7 @@ td {
 .blog-button button {
     background-color: #4e0405;
     padding: 15px;
-    font-size: 18px;
+    font-size: 1.125rem;
     border-radius: 10px;
     color: #ffff;
     border: 0;

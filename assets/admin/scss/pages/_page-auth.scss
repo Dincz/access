@@ -34,7 +34,7 @@
     .welcome-title{
         color: $white;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     p{
         color: $white;
@@ -46,7 +46,7 @@
             margin-bottom: 20px;
             font-weight: 700;
             color: $white;
-            font-size: 20px;
+            font-size: 1.25rem;
         img{
             width: 100px;
         }
@@ -62,7 +62,7 @@
                 display: inline-block;
                 a{
                     color: $white;
-                    font-size: 14px;
+                    font-size: 0.875rem; ;
                     padding: 0px 7px;
                 }
             }

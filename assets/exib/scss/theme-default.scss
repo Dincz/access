@@ -78,7 +78,7 @@ li {
 	list-style: none
 }
 p {
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: #AAB1B7;
 	line-height: 32px;
 	margin-bottom: 0;
@@ -90,7 +90,7 @@ p {
 label {
 	color: #7e7e7e;
 	cursor: pointer;
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-weight: 400;
 }
 *::-moz-selection {
@@ -110,27 +110,27 @@ label {
 }
 *::-webkit-input-placeholder {
 	color: #cccccc;
-	font-size: 14px;
+	font-size: 0.875rem;
 	opacity: 1;
 }
 *:-ms-input-placeholder {
 	color: #cccccc;
-	font-size: 14px;
+	font-size: 0.875rem;
 	opacity: 1;
 }
 *::-ms-input-placeholder {
 	color: #cccccc;
-	font-size: 14px;
+	font-size: 0.875rem;
 	opacity: 1;
 }
 *::placeholder {
 	color: #cccccc;
-	font-size: 14px;
+	font-size: 0.875rem;
 	opacity: 1;
 }
 
 h3{
-	font-size: 24px;
+	font-size: 1.5rem;
 }
 
 .black_bg{
@@ -254,7 +254,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 		background-color: transparent;
 		@include border-radius(50%);
 		left: 50px;
-		font-size: 15px;
+		font-size: 0.9375rem;
 		line-height: 50px;
 		border: 1px solid #4D6174;
 		left: 150px;
@@ -350,7 +350,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 	height: 40px;
 	text-align: center;
 	line-height: 40px;
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: #fff;
 	@include transition(.3s);
 	@include border-radius(50%);

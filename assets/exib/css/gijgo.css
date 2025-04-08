@@ -45,7 +45,7 @@
 }
 
 .gj-font-size-16 {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .gj-hidden {
@@ -132,7 +132,7 @@
     border-bottom: 1px solid rgba(0,0,0,.42);
     display: block;
     font-family: "Helvetica","Arial",sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 16px;
     padding: 4px 0px;
     margin: 0;
@@ -270,7 +270,7 @@ ul.gj-list-md li {
     overflow: hidden;
 
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .04em;
     line-height: 1;
@@ -328,7 +328,7 @@ ul.gj-list-md li.disabled>[data-role="wrapper"]>[data-role="display"] {
 /* Material Design */
 .gj-picker-md {
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .04em;
     line-height: 1;
@@ -385,7 +385,7 @@ ul.gj-list-md li.disabled>[data-role="wrapper"]>[data-role="display"] {
 .gj-icon {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'gijgo-material' !important;
-    font-size: 24px;
+    font-size: 1.5rem;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -705,7 +705,7 @@ ul.gj-list-md li.disabled>[data-role="wrapper"]>[data-role="display"] {
     font-weight: 400;
     display: inline;
     line-height: 28px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .gj-dialog-md-close {
@@ -716,14 +716,14 @@ ul.gj-list-md li.disabled>[data-role="wrapper"]>[data-role="display"] {
     border: 0;
     float: right;
     line-height: 28px;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .gj-dialog-md-body {
     padding: 20px 24px 24px 24px;
     color: rgba(0,0,0,.54);
     font-family: "Helvetica","Arial",sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     line-height: 20px;
 }
@@ -853,7 +853,7 @@ table.gj-grid-bootstrap thead th [data-role="sorticon"] {
 table.gj-grid-bootstrap thead th [data-role="sorticon"] i.gj-icon,
 table.gj-grid-bootstrap thead th [data-role="sorticon"] i.material-icons {
     position: absolute;
-    font-size: 20px;
+    font-size: 1.25rem;
     top: 15px;
 }
 
@@ -935,7 +935,7 @@ table.gj-grid-md thead th [data-role="sorticon"] {
 table.gj-grid-md thead th [data-role="sorticon"] i.gj-icon,
 table.gj-grid-md thead th [data-role="sorticon"] i.material-icons {
     position: absolute;
-    font-size: 16px;
+    font-size: 1rem;
     top: 19px;
 }
 
@@ -1277,7 +1277,7 @@ span.gj-grid-column-resizer {
 .gj-grid-bootstrap-4 tbody tr td[data-mode="edit"] .gj-datepicker-bootstrap [role="right-icon"] .material-icons {
     top: 13px;
     left: 10px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .gj-grid-bootstrap-4 tbody tr td[data-mode="edit"] .gj-checkbox-bootstrap {
@@ -1305,7 +1305,7 @@ div.gj-grid-wrapper div.gj-grid-bootstrap-4-toolbar {
 
 div.gj-grid-wrapper div.gj-grid-md-toolbar {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Helvetica","Arial",sans-serif;
     background-color: rgb(255, 255, 255);
     
@@ -1601,11 +1601,11 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-checkbox-bootstrap-4.gj-checkbox-material-icons input[type="checkbox"]:checked + span:after {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .gj-checkbox-bootstrap-4.gj-checkbox-material-icons input[type="checkbox"]:indeterminate + span:after {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* Material Design */
@@ -1676,14 +1676,14 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 /* Material Icons */
 .gj-checkbox-material-icons input[type="checkbox"]:checked + span:after {
     content: "\e91f";
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     white-space: pre;
 }
 
 .gj-checkbox-material-icons input[type="checkbox"]:indeterminate + span:after {
     content: "\e921";
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     white-space: pre;
 }
@@ -1704,7 +1704,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 
 /* fontawesome */
 .gj-checkbox-fontawesome .fa {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .gj-checkbox-bootstrap.gj-checkbox-fontawesome .fa {
     line-height: 18px;
@@ -1727,7 +1727,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 .gj-editor-md {
     padding: 7px;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     letter-spacing: 0;
     border: 1px solid rgba(158,158,158,.2);
@@ -1757,7 +1757,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-editor-md blockquote {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 /* Bootstrap */
@@ -1788,7 +1788,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-editor-bootstrap blockquote {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .gj-dropdown {
     position: relative;
@@ -1819,7 +1819,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 /* Material Design */
 .gj-dropdown-md [role="presenter"] {
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .04em;
     line-height: 1;
@@ -1947,7 +1947,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 /* Material Design */
 .gj-datepicker-md {
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .04em;
     line-height: 1;
@@ -1959,23 +1959,23 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
     position: absolute;
     right: 0px;
     top: 0px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .gj-datepicker-md.small .gj-textbox-md {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .gj-datepicker-md.small .gj-icon {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .gj-datepicker-md.large .gj-textbox-md {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .gj-datepicker-md.large .gj-icon {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .gj-picker-md.datepicker [role="header"] {
@@ -1984,7 +1984,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-picker-md.datepicker [role="header"] [role="year"] {
-    font-size: 17px;
+    font-size: 1.0625rem;
     padding-bottom: 5px;
     cursor: pointer;
 }
@@ -2109,7 +2109,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-picker-bootstrap [role="header"] [role="date"] {
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -2234,12 +2234,12 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 .gj-datepicker-bootstrap.input-group-sm [role="right-icon"] button .material-icons {
     top: 6px;
     left: 6px;
-    font-size: 19px;
+    font-size: 1.1875rem;
 }
 
 .gj-datepicker-bootstrap.input-group-lg [role="right-icon"] button .gj-icon,
 .gj-datepicker-bootstrap.input-group-lg [role="right-icon"] button .material-icons {
-    font-size: 27px;
+    font-size: 1.6875rem;
     top: 10px;
     left: 10px;
 }
@@ -2277,7 +2277,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
     position: absolute;
     left: 7px;
     line-height: 18px;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .gj-picker [role="header"] [role="mode"] span[role="am"] {
@@ -2305,7 +2305,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
     height: 32px;
     cursor: pointer;
     position: absolute;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
     line-height: 32px;
     user-select: none;
@@ -2351,7 +2351,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 /* Material Design */
 .gj-timepicker-md {
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .04em;
     line-height: 1;
@@ -2360,19 +2360,19 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-timepicker-md.small .gj-textbox-md {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .gj-timepicker-md.small .gj-icon {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .gj-timepicker-md.large .gj-textbox-md {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .gj-timepicker-md.large .gj-icon {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .gj-timepicker-md [role="right-icon"] {
@@ -2380,7 +2380,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
     position: absolute;
     right: 0px;
     top: 0px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .gj-picker-md .arrow-begin {
@@ -2441,14 +2441,14 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 
 .gj-timepicker-bootstrap.input-group-sm .input-group-addon .gj-icon,
 .gj-timepicker-bootstrap.input-group-sm .input-group-addon .material-icons {
-    font-size: 19px;
+    font-size: 1.1875rem;
     top: 5px;
     left: 5px;
 }
 
 .gj-timepicker-bootstrap.input-group-lg .input-group-addon .gj-icon,
 .gj-timepicker-bootstrap.input-group-lg .input-group-addon .material-icons {
-    font-size: 27px;
+    font-size: 1.6875rem;
     top: 10px;
     left: 10px;
 }
@@ -2479,12 +2479,12 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 .gj-timepicker-bootstrap.input-group-sm [role="right-icon"] button .material-icons {
     top: 4px;
     left: 6px;
-    font-size: 19px;
+    font-size: 1.1875rem;
 }
 
 .gj-timepicker-bootstrap.input-group-lg [role="right-icon"] button .gj-icon,
 .gj-timepicker-bootstrap.input-group-lg [role="right-icon"] button .material-icons {
-    font-size: 27px;
+    font-size: 1.6875rem;
     top: 8px;
     left: 10px;
 }
@@ -2549,7 +2549,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-picker-bootstrap.datetimepicker [role="header"] [role="time"] {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .gj-slider {
@@ -2677,7 +2677,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 /* Material Design */
 .gj-colorpicker-md {
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .04em;
     line-height: 1;
@@ -2689,7 +2689,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
     position: absolute;
     right: 0px;
     top: 0px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 /* ...........
@@ -2698,7 +2698,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
     position: absolute;
     right: 0px;
     top: 0px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #919191;
     margin-right: 15px;
 }

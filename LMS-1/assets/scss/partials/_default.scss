@@ -18,7 +18,7 @@ button.close {
     border: none;
     background: transparent;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .default_bg {
     background-color: $default_bg_color;
@@ -207,7 +207,7 @@ header {
     color: $white;
     padding:16px 80px 16px 16px;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     text-transform: uppercase;
     @include tablet {
@@ -229,7 +229,7 @@ header {
     border: 2px solid $hover;
     color: $hover;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     text-transform: uppercase;
     width: 150px;
@@ -251,7 +251,7 @@ header {
     color: $white;
     padding: 14px 35px;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     border-radius: 30px;
     text-transform: uppercase;
@@ -270,7 +270,7 @@ header {
     color: $white;
     padding: 12px 25px;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     text-transform: uppercase;
     &:hover {
@@ -287,7 +287,7 @@ header {
     color: $white;
     padding: 10px 25px;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
     border-radius: 30px;
     text-transform: uppercase;
@@ -308,7 +308,7 @@ header {
     color: $hover;
     padding: 10px 25px;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
@@ -332,7 +332,7 @@ header {
     color: $white;
     padding: 10px 35px;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
     text-transform: uppercase;
     border: 2px solid $hover;
@@ -371,11 +371,11 @@ header {
     line-height: 35px;
     border-radius: 50%;
     transition: all .4s linear 0s;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
     border-radius: 30px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1rem;
     i {
         color: $hover_2;
     }
@@ -458,7 +458,7 @@ header {
              padding: 10px;
              color: $dark_2;
              transition: all .4s linear 0s;
-             font-size: 16px;
+             font-size: 1rem;
              &:hover {
               a {
                 text-decoration: none;
@@ -487,7 +487,7 @@ header {
              padding: 10px;
              color: $dark_2;
              transition: all .4s linear 0s;
-             font-size: 16px;
+             font-size: 1rem;
              &:hover {
               a {
                 text-decoration: none;
@@ -500,7 +500,7 @@ header {
                  font-weight: 900;
                  padding-right: 5px;
                  color: $hover;
-                 font-size: 14px;
+                 font-size: 0.875rem;
              }
          }
      }
@@ -511,7 +511,7 @@ header {
     h4 {
        color: $hover;
        text-transform: uppercase;
-       font-size: 18px;
+       font-size: 1.125rem;
        font-weight: 500;
     }
     h2 {
@@ -530,13 +530,13 @@ header {
      font-size: 50px;
      color: $dark_2;
      @include mobile {
-         font-size: 30px;
+         font-size: 1.875rem;
      }
  }
  .sm-sub-title {
      font-family: "Poppins";
      font-weight: 600;
-     font-size: 30px;
+     font-size: 1.875rem;
      color: $dark_2;
  }
  .section-title-2 {
@@ -544,7 +544,7 @@ header {
     h4 {
        color: $hover_2;
        text-transform: uppercase;
-       font-size: 18px;
+       font-size: 1.125rem;
        font-weight: 500;
     }
     h2 {
@@ -562,7 +562,7 @@ header {
     h4 {
        color: $hover_4;
        text-transform: uppercase;
-       font-size: 18px;
+       font-size: 1.125rem;
        font-weight: 400;
     }
     h2 {
@@ -580,7 +580,7 @@ header {
     h4 {
        color: $white;
        text-transform: uppercase;
-       font-size: 18px;
+       font-size: 1.125rem;
        font-weight: 600;
     }
     h2 {
@@ -734,7 +734,7 @@ header {
  }
  .button_icon {
    i {
-       font-size: 20px;
+       font-size: 1.25rem;
        padding-left: 5px;
    }
  }
@@ -841,7 +841,7 @@ header {
      display: inline-block;
      position: relative;
      color: $dark_2;
-     font-size: 24px;
+     font-size: 1.5rem;
      margin: 0;
      font-weight:500;
     
@@ -895,7 +895,7 @@ header {
      color: $hover;
      font-weight: 500;
      text-transform: uppercase;
-     font-size: 15px;
+     font-size: 0.9375rem;
      transition: all .4s linear 0s;
      i {
         transition: all .4s linear 0s;
@@ -913,11 +913,11 @@ header {
          display: inline-block;
          margin-bottom: 0;
          color: $dark_2;
-         font-size: 16px;
+         font-size: 1rem;
          font-weight: 500;
          padding-right: 5px;
          @include mobile {
-             font-size: 14px;
+             font-size: 0.875rem;
          }
      }
      ul {
@@ -930,7 +930,7 @@ header {
              a {
                  position: relative;
                  color: $dark_5;
-                 font-size: 16px;
+                 font-size: 1rem;
                  transition: all .4s linear 0s;
                  &:hover {
                      text-decoration: none;
@@ -938,7 +938,7 @@ header {
                  }
                  &:after {
                      content:" , ";
-                     font-size: 20px;
+                     font-size: 1.25rem;
                  }
              }
              &:last-child {
@@ -961,7 +961,7 @@ header {
          @include mobile {
              padding-right: 0;
              padding-left: 5px;
-             font-size: 14px;
+             font-size: 0.875rem;
          }
      }
      ul {

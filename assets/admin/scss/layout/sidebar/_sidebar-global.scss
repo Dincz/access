@@ -220,7 +220,7 @@
             &>a {
 				font-weight: 500;
 				display: inline-block;
-				font-size: 15px;
+				font-size: 0.9375rem;
 					
 				svg {
 					max-width: 24px;
@@ -275,11 +275,11 @@
 				padding-top: .5rem;
 				padding-bottom: .5rem;
 				position: relative;
-				font-size: 16px;
+				font-size: 1rem;
 				padding-left: 5.7rem;
 				@include respond('laptop') {
 					padding-left: 3.9rem;
-					font-size: 14px;
+					font-size: 0.875rem; ;
 				}
 				@include respond('phone-land') {
 					padding-left: 3.5rem;

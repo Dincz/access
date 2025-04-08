@@ -53,8 +53,8 @@ class Career extends CI_Controller
                 }
 
                 // Email content
-                $to = [["email"=>"tanaya@crezvatic.com","name"=>"Tanaya Kadam"]];
-                $subject = 'New Job Application | '. $this->input->post('job_role', TRUE);
+                $to = [["email" => "tanaya@crezvatic.com", "name" => "Tanaya Kadam"]];
+                $subject = 'New Job Application | ' . $this->input->post('job_role', TRUE);
                 $message = '
                 <html>
                 <head>
@@ -62,7 +62,7 @@ class Career extends CI_Controller
                     <style>
                         body { 
                             font-family: Arial, sans-serif; 
-                            font-size: 14px; 
+                            font-size: 0.875rem; ; 
                             line-height: 1.6; 
                             color: #333; 
                             background-color: #f8f9fa; 
@@ -77,7 +77,7 @@ class Career extends CI_Controller
                             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                         }
                         .email-header {
-                            font-size: 20px;
+                            font-size: 1.25rem;
                             font-weight: bold;
                             color: #2c3e50;
                             margin-bottom: 15px;
@@ -101,7 +101,7 @@ class Career extends CI_Controller
                             color: #ffffff;
                             padding: 10px 15px;
                             text-decoration: none;
-                            font-size: 14px;
+                            font-size: 0.875rem; ;
                             border-radius: 10px;
                             font-weight: bold;
                             margin-top: 10px;
@@ -119,20 +119,20 @@ class Career extends CI_Controller
                         <div class="email-section"><span class="label">Job Type:</span> ' . htmlspecialchars($this->input->post('job_role', TRUE)) . '</div>
                         <div class="email-section"><span class="label">Email:</span> ' . htmlspecialchars($this->input->post('email', TRUE)) . '</div>
                         <div class="email-section"><span class="label">Phone Number:</span> ' . htmlspecialchars($this->input->post('contactNumber', TRUE)) . '</div>';
-                
+
                 if (!empty($resume_file_path)) {
                     $message .= '<div class="email-section">
                                     <span class="label">Resume:</span> 
                                     <a href="' . $resume_file_path . '" target="_blank" class="resume-button">Download Resume</a>
                                 </div>';
                 }
-                
+
                 if ($this->input->post('message', TRUE)) {
                     $message .= '<div class="email-section">
                                     <span class="label">Message:</span> ' . htmlspecialchars($this->input->post('message', TRUE)) . '
                                 </div>';
                 }
-                
+
                 $message .= '
                     </div>
                 </body>
@@ -142,12 +142,12 @@ class Career extends CI_Controller
                 // Attach resume if available
                 if (!empty($resume_file_path)) {
                     $pdf_url = './assets/pdfs/' . $upload_data['file_name'];
-                }else{
+                } else {
                     $pdf = null;
                 }
                 // print_r($message);exit;
                 // Send email
-                if ($this->brevoMailSendAPI($to,$subject,$message,$pdf)) {
+                if ($this->brevoMailSendAPI($to, $subject, $message, $pdf)) {
                     redirect('https://crezvatic.com/thankyou?apply=job');
                 } else {
                     echo "Error sending email";
@@ -191,8 +191,8 @@ class Career extends CI_Controller
         $result = json_decode($response, true);
         return isset($result['success']) && $result['success'] === true;
     }
-    
-     // Brevo API integration
+
+    // Brevo API integration
     private function brevoMailSendAPI($to, $subject, $message, $pdf_url = null)
     {
         $curl = curl_init();

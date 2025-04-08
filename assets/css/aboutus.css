@@ -31,19 +31,19 @@
 
 #aboutUsSection .heading p {
     color: #afafaf;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300
 }
 
 @media screen and (max-width: 425px) {
     #aboutUsSection .heading p {
-        font-size: 18px
+        font-size: 1.125rem;
     }
 }
 
 @media screen and (max-width: 320px) {
     #aboutUsSection .heading p {
-        font-size: 16px
+        font-size: 1rem;
     }
 }
 
@@ -132,7 +132,7 @@
 }
 
 #aboutUsSection .hero_section_1 .left p {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #f2f2f2
 }
 
@@ -171,26 +171,26 @@
 
 #aboutUsSection .hero_section_1 .left h3 {
     color: #afafaf;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300
 }
 
 @media screen and (max-width: 1200px) {
     #aboutUsSection .hero_section_1 .left h3 {
-        font-size: 20px
+        font-size: 1.25rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     #aboutUsSection .hero_section_1 .left h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
         text-align: justify
     }
 }
 
 @media screen and (max-width: 375px) {
     #aboutUsSection .hero_section_1 .left h3 {
-        font-size: 16px
+        font-size: 1rem;
     }
 }
 
@@ -204,14 +204,14 @@
     width: -moz-fit-content;
     width: fit-content;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     transition: 0.2s
 }
 
 @media screen and (max-width: 768px) {
     #aboutUsSection .hero_section_1 .left a {
-        font-size: 16px
+        font-size: 1rem;
     }
 }
 
@@ -246,13 +246,13 @@
 }
 
 #aboutUsSection .what_we_do .body .box .content h2 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 400;
     margin: 10px 0px 0px 0px !important
 }
 
 #aboutUsSection .what_we_do .body .box .content p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #afafaf
 }
 
@@ -313,7 +313,7 @@
     background-color: #ee2c2f;
     border-radius: 25px;
     padding: 5px 25px;
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-align: center;
     font-weight: 500;
     border: 2px solid white
@@ -321,25 +321,25 @@
 
 #aboutUsSection .our_history .body .timeline ul li .content h3 {
     color: white;
-    font-size: 25px;
+    font-size: 1.5625rem;
     padding-top: 5px
 }
 
 @media screen and (max-width: 425px) {
     #aboutUsSection .our_history .body .timeline ul li .content h3 {
-        font-size: 20px
+        font-size: 1.25rem;
     }
 }
 
 #aboutUsSection .our_history .body .timeline ul li .content p {
     padding: 5px 0px 15px 0px;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #afafaf
 }
 
 @media screen and (max-width: 425px) {
     #aboutUsSection .our_history .body .timeline ul li .content p {
-        font-size: 16px
+        font-size: 1rem;
     }
 }
 
@@ -410,7 +410,7 @@
 }
 
 #aboutUsSection .why_chooose_us .left p {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #f2f2f2
 }
 
@@ -447,25 +447,25 @@
 }
 
 #aboutUsSection .why_chooose_us .left .keypoints .box .right h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500
 }
 
 @media screen and (max-width: 425px) {
     #aboutUsSection .why_chooose_us .left .keypoints .box .right h4 {
-        font-size: 18px
+        font-size: 1.125rem;
     }
 }
 
 #aboutUsSection .why_chooose_us .left .keypoints .box .right p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #afafaf;
     font-weight: 300
 }
 
 @media screen and (max-width: 425px) {
     #aboutUsSection .why_chooose_us .left .keypoints .box .right p {
-        font-size: 15px
+        font-size: 0.9375rem; 
     }
 }
 
@@ -507,7 +507,7 @@
 
 @media screen and (max-width: 425px) {
     #aboutUsSection .review .content .box .review_content p {
-        font-size: 16px
+        font-size: 1rem;
     }
 }
 

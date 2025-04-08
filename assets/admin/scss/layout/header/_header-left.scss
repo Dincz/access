@@ -4,7 +4,7 @@
     align-items: center;
 	
 	.dashboard_bar {
-		font-size: 28px;
+		font-size: 1.75rem;
 		font-weight: 600;
 		color:$black;
 		span{
@@ -14,7 +14,7 @@
 			font-weight:400;
 		}
 		@include respond('laptop') {
-			font-size: 24px;
+			font-size: 1.5rem;
 		}
 		@include respond('phone-land') {
 			display:none;
@@ -32,7 +32,7 @@
         border-bottom-right-radius: 0;
         box-shadow: none;
 		padding: 10px 20px;
-		font-size: 16px;
+		font-size: 1rem;
 		border-right-width:0!important;
 		border: 1px solid #ebebeb;
 		border-width: 1px;
@@ -100,7 +100,7 @@
 			border-left-width:0;
 			
             i {
-                font-size: 24px;
+                font-size: 1.5rem;
                 color: $dark;
 				line-height: 1;
             }

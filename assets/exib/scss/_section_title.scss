@@ -8,7 +8,7 @@
         padding-bottom: 7px;
         
         @media #{$mobile_device} {
-            font-size: 30px;
+            font-size: 1.875rem;
             line-height: 36px;
         }
         @media #{$tablet_device} {
@@ -32,7 +32,7 @@
         }
     }
     p{
-        font-size: 20px;
+        font-size: 1.25rem;
         color: #AAB1B7;
         line-height: 32px;
         margin-bottom: 0;
@@ -48,7 +48,7 @@
     }
 }
 .section_title h4 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
     color: $theme-color;
     font-family: $font1;

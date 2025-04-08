@@ -64,7 +64,7 @@ button.close {
   border: none;
   background: transparent;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .default_bg {
@@ -298,7 +298,7 @@ button.close {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .button_one:hover {
   text-decoration: none;
@@ -314,7 +314,7 @@ button.close {
   color: #fff;
   padding: 16px 80px 16px 16px;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -339,7 +339,7 @@ button.close {
   border: 2px solid #ff5202;
   color: #ff5202;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   text-transform: uppercase;
   width: 150px;
@@ -362,7 +362,7 @@ button.close {
   color: #fff;
   padding: 14px 35px;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   border-radius: 30px;
   text-transform: uppercase;
@@ -382,7 +382,7 @@ button.close {
   color: #fff;
   padding: 12px 25px;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -400,7 +400,7 @@ button.close {
   color: #fff;
   padding: 10px 25px;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   border-radius: 30px;
   text-transform: uppercase;
@@ -424,7 +424,7 @@ button.close {
   color: #ff5202;
   padding: 10px 25px;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
@@ -451,7 +451,7 @@ button.close {
   color: #fff;
   padding: 10px 35px;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   text-transform: uppercase;
   border: 2px solid #ff5202;
@@ -494,11 +494,11 @@ button.close {
   line-height: 35px;
   border-radius: 50%;
   transition: all 0.4s linear 0s;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   border-radius: 30px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .rounded-btn i {
   color: #14bdee;
@@ -582,7 +582,7 @@ button.close {
   padding: 10px;
   color: #002147;
   transition: all 0.4s linear 0s;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .theme-list-3 ul li:hover a {
   text-decoration: none;
@@ -610,7 +610,7 @@ button.close {
   padding: 10px;
   color: #002147;
   transition: all 0.4s linear 0s;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .theme-list-4 ul li:hover a {
   text-decoration: none;
@@ -622,7 +622,7 @@ button.close {
   font-weight: 900;
   padding-right: 5px;
   color: #ff5202;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .section-title {
@@ -631,7 +631,7 @@ button.close {
 .section-title h4 {
   color: #ff5202;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
 }
 .section-title h2 {
@@ -654,14 +654,14 @@ button.close {
 }
 @media (max-width: 575px) {
   .sub-title {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 
 .sm-sub-title {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #002147;
 }
 
@@ -671,7 +671,7 @@ button.close {
 .section-title-2 h4 {
   color: #14bdee;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
 }
 .section-title-2 h2 {
@@ -692,7 +692,7 @@ button.close {
 .section-title-3 h4 {
   color: #91c73d;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 .section-title-3 h2 {
@@ -713,7 +713,7 @@ button.close {
 .section-title-6 h4 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
 }
 .section-title-6 h2 {
@@ -889,7 +889,7 @@ button.close {
 }
 
 .button_icon i {
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-left: 5px;
 }
 
@@ -1024,7 +1024,7 @@ button.close {
   display: inline-block;
   position: relative;
   color: #002147;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 0;
   font-weight: 500;
 }
@@ -1075,7 +1075,7 @@ button.close {
   color: #ff5202;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.9375rem;
   transition: all 0.4s linear 0s;
 }
 .link_btn i {
@@ -1093,13 +1093,13 @@ button.close {
   display: inline-block;
   margin-bottom: 0;
   color: #002147;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   padding-right: 5px;
 }
 @media (max-width: 575px) {
   .tags-list p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 .tags-list ul {
@@ -1114,7 +1114,7 @@ button.close {
 .tags-list ul li a {
   position: relative;
   color: #666;
-  font-size: 16px;
+  font-size: 1rem;
   transition: all 0.4s linear 0s;
 }
 .tags-list ul li a:hover {
@@ -1123,7 +1123,7 @@ button.close {
 }
 .tags-list ul li a:after {
   content: " , ";
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .tags-list ul li:last-child a:after {
   content: none;
@@ -1140,7 +1140,7 @@ button.close {
   .share-option p {
     padding-right: 0;
     padding-left: 5px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 .share-option ul {
@@ -1248,7 +1248,7 @@ button.close {
 body {
   font-family: "Rubik", sans-serif;
   color: #666;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 body p {
@@ -1279,7 +1279,7 @@ body p {
   line-height: 45px;
   padding-right: 40px;
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .header-top-content .contact-info ul li i {
   color: #14bdee;
@@ -1315,12 +1315,12 @@ body p {
 }
 @media (max-width: 768px) {
   .single_info .info_data p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 @media (max-width: 575px) {
   .single_info .info_data p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 .single_info img {
@@ -1692,7 +1692,7 @@ body p {
   position: relative;
   color: #14bdee;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .slider-area-2 .slider-content h2 {
   position: relative;
@@ -1711,7 +1711,7 @@ body p {
   position: relative;
   color: #14bdee;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .slider-area-2 .slider-content-2 h2 {
   position: relative;
@@ -1767,7 +1767,7 @@ body p {
 .slider-area-3 .slider-content h6 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 .slider-area-3 .slider-content h2 {
@@ -1783,7 +1783,7 @@ body p {
 .slider-area-3 .slider-content-2 h6 {
   color: #14bdee;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .slider-area-3 .slider-content-2 h2 {
   color: #002147;
@@ -1830,7 +1830,7 @@ body p {
   right: 0;
   text-align: center;
   color: #fff;
-  font-size: 25px;
+  font-size: 1.5625rem;
   line-height: 25px;
   top: 50%;
   transform: translateY(-50%);
@@ -1877,7 +1877,7 @@ body p {
   right: 0;
   text-align: center;
   color: #fff;
-  font-size: 25px;
+  font-size: 1.5625rem;
   line-height: 25px;
   top: 50%;
   transform: translateY(-50%);
@@ -1939,7 +1939,7 @@ body p {
 }
 .slider-content p {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .slider-content h2 {
   font-weight: 500;
@@ -2269,7 +2269,7 @@ body p {
 }
 .feature-status i {
   color: #ff5202;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .feature-status-2 {
@@ -2281,7 +2281,7 @@ body p {
 }
 .feature-status-2 i {
   color: #14bdee;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .feature-status-3 {
@@ -2296,7 +2296,7 @@ body p {
 }
 .feature-status-3 i {
   color: #a2a2a2;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .feature-status-4 {
@@ -2311,12 +2311,12 @@ body p {
 }
 .feature-status-4 i {
   color: #91c73d;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .feature-content h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0;
   padding-bottom: 15px;
@@ -2332,7 +2332,7 @@ body p {
 
 .feature-content-2 h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0;
   padding-bottom: 15px;
@@ -2348,7 +2348,7 @@ body p {
 
 .feature-content-3 h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
   padding-top: 0;
@@ -2368,7 +2368,7 @@ body p {
   padding: 0.6rem 1rem;
   background-color: #ff5202;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   text-align: center;
 }
@@ -2381,7 +2381,7 @@ body p {
   padding: 0.6rem 1rem;
   background-color: #14bdee;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   text-align: center;
 }
@@ -2395,7 +2395,7 @@ body p {
   height: 70px;
   border-radius: 50%;
   border: 2px solid #14bdee;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 70px;
   color: #14bdee;
@@ -2416,7 +2416,7 @@ body p {
   padding: 0.6rem 1rem;
   background-color: #91c73d;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   text-align: center;
 }
@@ -2430,7 +2430,7 @@ body p {
   height: 70px;
   border-radius: 50%;
   border: 2px solid #ff5202;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 70px;
   color: #ff5202;
@@ -2451,7 +2451,7 @@ body p {
   padding: 0.6rem 1rem;
   background-color: #14bdee;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
 }
 .event-date-2 p {
@@ -2526,7 +2526,7 @@ body p {
 .single-countdown-2 p {
   color: #666;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .single-countdown-2 span {
   color: #14bdee;
@@ -2577,7 +2577,7 @@ body p {
 .single-countdown-4 p {
   color: #fff;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .single-countdown-4 span {
   color: #91c73d;
@@ -2591,7 +2591,7 @@ body p {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .single-countdown-4 p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }
 
@@ -2605,7 +2605,7 @@ body p {
 .single-countdown-5 p {
   color: #fff;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .single-countdown-5 span {
   color: #14bdee;
@@ -2614,7 +2614,7 @@ body p {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .single-countdown-5 p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }
 
@@ -2680,12 +2680,12 @@ body p {
 }
 @media (max-width: 768px) {
   .half_column_content_2 h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 @media (max-width: 575px) {
   .half_column_content_2 h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 
@@ -2741,21 +2741,21 @@ body p {
 }
 .member-info p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .member-info a {
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .member-info a:hover {
   text-decoration: none;
 }
 .member-info h6 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 .member-info span {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .member-info-2 .extra-skilled p {
@@ -2764,38 +2764,38 @@ body p {
 }
 .member-info-2 .extra-skilled p strong {
   color: #002147;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .member-info-2 span {
   color: #666;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .member-info-2 h5 {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #002147;
 }
 
 .member-info-3 h5 {
   color: #002147;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .member-info-3 span {
   color: #666;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
 .member-info-4 h5 {
   color: #002147;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .member-info-4 span {
   color: #666;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .social-profile ul {
@@ -3102,7 +3102,7 @@ body p {
   margin: 10px;
 }
 .show_navigation .owl-nav button i {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .show_navigation .owl-nav button.owl-prev {
   width: 50px;
@@ -3163,7 +3163,7 @@ body p {
   margin: 10px;
 }
 .show_navigation_2 .owl-nav button i {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .show_navigation_2 .owl-nav button.owl-prev {
   width: 50px;
@@ -3206,7 +3206,7 @@ body p {
   position: relative;
 }
 .show_navigation_3 .owl-nav {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .show_navigation_3 .owl-nav {
@@ -3222,7 +3222,7 @@ body p {
   margin: 10px;
 }
 .show_navigation_3 .owl-nav button i {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .show_navigation_3 .owl-nav button.owl-prev {
   position: absolute;
@@ -3285,7 +3285,7 @@ body p {
   position: relative;
 }
 .show_navigation_4 .owl-nav {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .show_navigation_4 .owl-nav {
@@ -3301,7 +3301,7 @@ body p {
   margin: 10px;
 }
 .show_navigation_4 .owl-nav button i {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .show_navigation_4 .owl-nav button.owl-prev {
   position: absolute;
@@ -3391,13 +3391,13 @@ body p {
   font-weight: 600;
 }
 .single-event .event-date p {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #56566a;
   font-weight: 500;
   margin-bottom: 0;
 }
 .single-event h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .single-event h5 a {
@@ -3419,7 +3419,7 @@ body p {
 }
 @media (min-width: 1199px) {
   .single-event .event-meta .single-meta p {
-    font-size: 16px !important;
+    font-size: 1rem; !important;
   }
 }
 @media (min-width: 992px) {
@@ -3437,7 +3437,7 @@ body p {
 }
 
 .event-content h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 15px;
   font-family: "Poppins";
 }
@@ -3451,7 +3451,7 @@ body p {
 }
 
 .event-content-one h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 15px;
   font-family: "Poppins";
   font-weight: 600;
@@ -3484,13 +3484,13 @@ body p {
   font-weight: 600;
 }
 .single-event-2 .event-date p {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #56566a;
   margin-bottom: 0;
   font-weight: 600;
 }
 .single-event-2 h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 .single-event-2 h5 a {
@@ -3522,7 +3522,7 @@ body p {
 }
 @media (min-width: 992px) {
   .single-event-2 .event-meta .single-meta p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 .single-event-2 i {
@@ -3548,12 +3548,12 @@ body p {
   font-weight: 600;
 }
 .single-event-3 .event-date p {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #56566a;
   margin-bottom: 0;
 }
 .single-event-3 h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 .single-event-3 h5 a {
@@ -3585,7 +3585,7 @@ body p {
 }
 @media (min-width: 992px) {
   .single-event-3 .event-meta .single-meta p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 .single-event-3 i {
@@ -3593,7 +3593,7 @@ body p {
 }
 
 .event-content h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 15px;
 }
 .event-content h2 a {
@@ -3614,7 +3614,7 @@ body p {
   width: 85%;
   left: 7%;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #56566a;
   flex-wrap: wrap;
 }
@@ -3626,7 +3626,7 @@ body p {
 }
 .events-info i {
   color: #ff5202;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .events-info p {
   margin-bottom: 0;
@@ -3647,7 +3647,7 @@ body p {
   width: 80%;
   left: 10%;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #56566a;
 }
 @media (max-width: 768px) {
@@ -3664,7 +3664,7 @@ body p {
 }
 .events-info-2 i {
   color: #ff5202;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .events-info-2 p {
   margin-bottom: 0;
@@ -3690,7 +3690,7 @@ body p {
   width: 70%;
   left: 15%;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #56566a;
   text-align: center;
 }
@@ -3702,7 +3702,7 @@ body p {
 }
 .single-blog .post-meta i {
   color: #ff5202;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .single-blog .post-meta p {
   margin-bottom: 0;
@@ -3715,7 +3715,7 @@ body p {
 }
 .single-blog .post-meta .single-event-data p {
   padding: 0 5px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #666;
 }
 
@@ -3778,7 +3778,7 @@ body p {
   color: #fff;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   border: 3px solid #fff;
 }
@@ -3793,14 +3793,14 @@ body p {
 }
 .single-testimonial-2 .testimonial-text p {
   font-style: italic;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .single-testimonial-2 .testimonial-referance strong {
   color: #002147;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .single-testimonial-2 .testimonial-referance p {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 0;
 }
 .single-testimonial-2 p {
@@ -3830,7 +3830,7 @@ body p {
 }
 .single-testimonial-3 p {
   font-style: italic;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .single-testimonial-3 .testimonial-referance strong {
   display: block;
@@ -3862,7 +3862,7 @@ body p {
 }
 .single-testimonial-4 p {
   font-style: italic;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .single-testimonial-4 .testimonial-referance strong {
   display: block;
@@ -3879,7 +3879,7 @@ body p {
 .single-testimonial-6 > p {
   display: inline-block;
   font-style: italic;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .single-testimonial-6 > p:after {
   content: "";
@@ -3887,7 +3887,7 @@ body p {
   font-weight: 900;
   position: absolute;
   padding-left: 10px;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #1e2458;
 }
 .single-testimonial-6 .testimonial-referance p {
@@ -4051,7 +4051,7 @@ body p {
   position: relative;
 }
 .blog-lists-wrapper .blog-content-wrapper h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   line-height: 1.5rem;
@@ -4084,7 +4084,7 @@ body p {
   margin-bottom: 0;
 }
 .blog-lists-wrapper-2 .blog-content-wrapper h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   line-height: 1.5rem;
@@ -4119,7 +4119,7 @@ body p {
   margin-bottom: 0;
 }
 .blog-lists-wrapper-3 .blog-content-wrapper h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   line-height: 1.5rem;
@@ -4138,13 +4138,13 @@ body p {
 }
 
 .post-meta span {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: italic;
 }
 
 .big-blog-area .blog-meta span {
   color: #ff5202;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 .big-blog-area .blog-meta span.seperator {
@@ -4156,7 +4156,7 @@ body p {
 }
 .big-blog-area .blog-meta-2 span {
   color: #14bdee;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .big-blog-area .blog-meta-2 span a {
   color: #14bdee;
@@ -4172,7 +4172,7 @@ body p {
   transition: all 0.4s linear 0s;
   margin-top: 0;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.8rem;
   font-weight: 600;
   font-family: "Poppins";
@@ -4190,7 +4190,7 @@ body p {
   display: inline-block;
   color: #ff5202;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-transform: uppercase;
   margin-top: 15px;
   transition: all 0.4s linear 0s;
@@ -4214,7 +4214,7 @@ body p {
   transition: all 0.4s linear 0s;
   margin-top: 0;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.8rem;
   font-family: "Poppins";
   font-weight: 600;
@@ -4227,7 +4227,7 @@ body p {
   display: inline-block;
   color: #14bdee;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-transform: uppercase;
   margin-top: 15px;
   transition: all 0.4s linear 0s;
@@ -4292,7 +4292,7 @@ body p {
 }
 .subscribe_box .subscribe-text p {
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-transform: capitalize;
 }
 .subscribe_box .subscribe-form {
@@ -4364,7 +4364,7 @@ body p {
 }
 .widget-item .widget-content h5 a {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   transition: all 0.4s linear 0s;
 }
@@ -4377,7 +4377,7 @@ body p {
 }
 .widget-item .widget-content-2 h5 a {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   transition: all 0.4s linear 0s;
 }
@@ -4387,7 +4387,7 @@ body p {
 }
 .widget-item .widget-content-3 h5 a {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   transition: all 0.4s linear 0s;
 }
@@ -4400,7 +4400,7 @@ body p {
 }
 
 .widget-meta span {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: italic;
 }
 
@@ -4414,7 +4414,7 @@ body p {
 }
 .widget-list ul li a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   padding: 5px;
   text-transform: capitalize;
@@ -4435,7 +4435,7 @@ body p {
 }
 .widget-list-2 ul li a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   padding: 5px;
   text-transform: capitalize;
@@ -4456,7 +4456,7 @@ body p {
 }
 .widget-list-3 ul li a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   padding: 5px;
   text-transform: capitalize;
@@ -4597,7 +4597,7 @@ body p {
 }
 
 .address-widget span {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .subscribe-wrapper {
@@ -4630,7 +4630,7 @@ body p {
 }
 @media (max-width: 575px) {
   .subscribe-wrapper h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 .subscribe-wrapper input {
@@ -4640,7 +4640,7 @@ body p {
   border-radius: 35px;
   position: relative;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .subscribe-wrapper input:focus {
   outline: 0;
@@ -4659,7 +4659,7 @@ body p {
   top: 0;
   border: 0;
   width: 165px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .subscribe-wrapper button[type=submit]:focus {
   outline: 0;
@@ -4669,7 +4669,7 @@ body p {
   .subscribe-wrapper button[type=submit] {
     border-radius: 20px;
     width: 110px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 @media (max-width: 575px) {
@@ -4718,7 +4718,7 @@ body p {
 
 .scroll-top .scroll-icon {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 53px;
   text-align: center;
 }
@@ -4815,7 +4815,7 @@ body p {
 }
 .featured-2-icon i {
   color: #ff5202;
-  font-size: 25px;
+  font-size: 1.5625rem;
   width: 60px;
   height: 60px;
   line-height: 55px;
@@ -4832,7 +4832,7 @@ body p {
 
 .featured-2-text h5 {
   color: #002147;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
@@ -4865,7 +4865,7 @@ body p {
   transition: all 0.4s linear 0s;
 }
 .half-column-video .play-button i {
-  font-size: 30px;
+  font-size: 1.875rem;
   background-color: #fff;
   padding: 35px;
   border-radius: 50%;
@@ -4971,7 +4971,7 @@ body p {
   height: 55px;
   background-color: #91c73d;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 2px;
@@ -5017,7 +5017,7 @@ body p {
   background-color: #91c73d;
   color: #fff;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   cursor: pointer;
   border: 0;
@@ -5060,7 +5060,7 @@ body p {
   background-color: #ff5202;
   color: #fff;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   cursor: pointer;
   border: 0;
@@ -5081,13 +5081,13 @@ body p {
 ********************************/
 .single-timeline h4 {
   color: #002147;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .single-timeline span {
   color: #ff5202;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .single-timeline .timeline-text {
   padding-top: 25px;
@@ -5113,7 +5113,7 @@ body p {
     top: -40px;
     width: 30px;
     height: 30px;
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 30px;
   }
   .timeline-wrapper:before {
@@ -5124,7 +5124,7 @@ body p {
     top: -40px;
     width: 30px;
     height: 30px;
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 30px;
   }
   .timeline-wrapper .single-timeline {
@@ -5142,7 +5142,7 @@ body p {
     color: #fff;
     background-color: #ff5202;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 50px;
     text-align: center;
   }
@@ -5169,7 +5169,7 @@ body p {
   font-family: "Poppins", sans-serif;
 }
 .half_column_content h6 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #666;
   font-weight: 600;
 }
@@ -5188,7 +5188,7 @@ body p {
   }
 }
 .secondary-content h6 {
-  font-size: 16px;
+  font-size: 1rem;
   color: #002147;
 }
 
@@ -5196,7 +5196,7 @@ body p {
   margin-bottom: 0;
 }
 .single-member-info .member-intro h3 a {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #002147;
   transition: all 0.4s linear 0s;
 }
@@ -5204,7 +5204,7 @@ body p {
   text-decoration: none;
 }
 .single-member-info .member-intro p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #666;
 }
 .single-member-info .member-intro p strong {
@@ -5219,7 +5219,7 @@ body p {
   justify-content: space-between;
 }
 .member-status p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #666;
 }
 .member-status p strong {
@@ -5284,7 +5284,7 @@ body p {
 .button-widget h3 {
   color: #002147;
   padding-bottom: 15px;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 35px;
   font-weight: 500;
 }
@@ -5402,7 +5402,7 @@ body p {
   transition: all 0.4s linear 0s;
 }
 .gallery-content h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #fff;
   margin-bottom: 20px;
   padding: 0 25px;
@@ -5442,7 +5442,7 @@ body p {
 19. Blog Style One
 ****************************/
 .post-text h2 a {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #002147;
   transition: all 0.4s linear 0s;
 }
@@ -5475,7 +5475,7 @@ body p {
   color: #fff;
   width: 80px;
   height: 100%;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #fff;
   border: 0;
 }
@@ -5507,7 +5507,7 @@ body p {
   padding-bottom: 0;
 }
 .latest-widget .single-latest .latest-content a {
-  font-size: 16px;
+  font-size: 1rem;
   color: #002147;
   transition: all 0.4s linear 0s;
   display: -webkit-box;
@@ -5522,7 +5522,7 @@ body p {
 }
 .latest-widget .single-latest .latest-content .latest-meta span {
   color: #666;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .category-list ul {
@@ -5552,7 +5552,7 @@ body p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .single-widget h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #002147;
   text-align: center;
   font-weight: 600;
@@ -5571,7 +5571,7 @@ body p {
   display: inline-block;
   color: #666;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.9375rem;
   padding: 10px 15px;
   background-color: #f5f5f5;
   margin: 5px 3px;
@@ -5672,14 +5672,14 @@ body p {
 }
 
 .single-event-content h3 a {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #002147;
   transition: all 0.4s linear 0s;
   font-weight: 600;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .single-event-content h3 a {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 .single-event-content h3 a:hover {
@@ -5711,7 +5711,7 @@ body p {
 }
 .single-event-date p {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ff5202;
 }
 .single-event-date span {
@@ -5731,14 +5731,14 @@ body p {
 .single-blog .blog-meta p {
   margin-bottom: 0;
   color: #666;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .single-blog .blog-meta i {
   color: #ff5202;
 }
 .single-blog .blog-text h4 a {
   color: #002147;
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: all 0.4s linear 0s;
 }
 .single-blog .blog-text h4 a:hover {
@@ -5822,7 +5822,7 @@ body p {
   padding-right: 5px;
 }
 .details-meta .single-meta p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #666;
 }
 @media (max-width: 575px) {
@@ -5832,7 +5832,7 @@ body p {
 }
 
 .details-title h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #002147;
 }
 
@@ -5848,7 +5848,7 @@ body p {
 }
 
 .comments-count h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #002147;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -5879,7 +5879,7 @@ body p {
   top: 0;
   right: 0;
   color: #ff5202;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 .single-comment .reply-btn:hover {
@@ -5892,7 +5892,7 @@ body p {
 
 .author-data a {
   color: #002147;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   transition: all 0.4s linear 0s;
   font-family: "Poppins", sans-serif;
@@ -5909,7 +5909,7 @@ body p {
 }
 
 .comment-form-wrapper h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #002147;
   margin-bottom: 35px;
 }
@@ -5957,7 +5957,7 @@ body p {
   object-fit: cover;
 }
 .single-blog-item .single-blog-content h4 a {
-  font-size: 16px;
+  font-size: 1rem;
   color: #002147;
   transition: all 0.4s linear 0s;
 }
@@ -5967,7 +5967,7 @@ body p {
 }
 .single-blog-item .single-blog-content span {
   color: #666;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .latest-blogs-area .owl-nav {
@@ -5987,7 +5987,7 @@ body p {
 }
 .latest-blogs-area .owl-nav button span {
   color: #ff5202;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 .latest-blogs-area .owl-nav button:hover {
   background-color: #ff5202 !important;
@@ -6082,7 +6082,7 @@ body p {
   }
 
   .slider-area-3 .slider-content h6 {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   .slider-content .display-3 {

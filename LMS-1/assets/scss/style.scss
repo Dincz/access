@@ -49,7 +49,7 @@ CSS Index
 body {
    font-family: 'Rubik', sans-serif;
    color: $dark_5;
-   font-size: 16px;
+   font-size: 1rem;
 }
 body {
    p {
@@ -76,7 +76,7 @@ body {
             line-height: 45px;
             padding-right: 40px;
             color: $white;
-            font-size: 14px;
+            font-size: 0.875rem;
             i {
                color: $hover_2;
                padding-right: 5px;
@@ -108,10 +108,10 @@ body {
          margin-bottom: 0;
          color: $dark_5;
          @include tablet {
-            font-size: 14px;
+            font-size: 0.875rem;
          }
          @include mobile {
-            font-size: 14px;
+            font-size: 0.875rem;
          }
       }
    }
@@ -545,7 +545,7 @@ body {
          position: relative;
          color: $hover_2;
          text-transform: uppercase;
-         font-size: 20px;
+         font-size: 1.25rem;
       }
       h2 {
          position: relative;
@@ -565,7 +565,7 @@ body {
          position: relative;
          color: $hover_2;
          text-transform: uppercase;
-         font-size: 20px;
+         font-size: 1.25rem;
       }
       h2 {
          position: relative;
@@ -621,7 +621,7 @@ body {
       h6 {
          color: $white;
          text-transform: uppercase;
-         font-size: 20px;
+         font-size: 1.25rem;
          font-weight: 400;
       }
       h2 {
@@ -639,7 +639,7 @@ body {
       h6 {
          color: $hover_2;
          text-transform: uppercase;
-         font-size: 20px;
+         font-size: 1.25rem;
       }
       h2 {
          color: $dark_2;
@@ -690,7 +690,7 @@ body {
       right: 0;
       text-align: center;
       color: $white;
-      font-size: 25px;
+      font-size: 1.5625rem;
       line-height: 25px;
       top: 50%;
       transform: translateY(-50%);
@@ -731,7 +731,7 @@ body {
       right: 0;
       text-align: center;
       color: $white;
-      font-size: 25px;
+      font-size: 1.5625rem;
       line-height: 25px;
       top: 50%;
       transform: translateY(-50%);
@@ -786,7 +786,7 @@ body {
    }
    p {
       margin-bottom: 0;
-      font-size: 20px;
+      font-size: 1.25rem;
    }
    h2 {
       font-weight: 500;
@@ -1113,7 +1113,7 @@ body {
    }
    i {
       color: $hover;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
 }
 .feature-status-2 {
@@ -1124,7 +1124,7 @@ body {
    }
    i {
       color: $hover_2;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
 }
 .feature-status-3 {
@@ -1138,7 +1138,7 @@ body {
    }
    i {
       color: $semi_white;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
 }
 .feature-status-4 {
@@ -1152,13 +1152,13 @@ body {
    }
    i {
       color: $hover_4;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
 }
 .feature-content {
     h3 {
       font-family: 'Poppins', sans-serif;
-      font-size: 24px;
+      font-size: 1.5rem;
       font-weight: 600;
       margin-bottom: 0;
       padding-bottom: 15px;
@@ -1176,7 +1176,7 @@ body {
 .feature-content-2 {
     h3 {
       font-family: 'Poppins', sans-serif;
-      font-size: 24px;
+      font-size: 1.5rem;
       font-weight: 600;
       margin-bottom: 0;
       padding-bottom: 15px;
@@ -1194,7 +1194,7 @@ body {
 .feature-content-3 {
     h3 {
       font-family: 'Poppins', sans-serif;
-      font-size: 24px;
+      font-size: 1.5rem;
       font-weight: 600;
       margin: 0;
       padding-top: 0;
@@ -1215,7 +1215,7 @@ body {
    padding: .6rem 1rem;
    background-color: $hover;
    color: $white;
-   font-size: 22px;
+   font-size: 1.375rem;
    font-weight: 500;
    text-align: center;
    p {
@@ -1227,7 +1227,7 @@ body {
    padding: .6rem 1rem;
    background-color: $hover_2;
    color: $white;
-   font-size: 22px;
+   font-size: 1.375rem;
    font-weight: 500;
    text-align: center;
    p {
@@ -1240,7 +1240,7 @@ body {
    height: 70px;
    border-radius: 50%;
    border: 2px solid $hover_2;
-   font-size: 24px;
+   font-size: 1.5rem;
    font-weight: 500;
    line-height: 70px;
    color: $hover_2;
@@ -1260,7 +1260,7 @@ body {
    padding: .6rem 1rem;
    background-color: $hover_4;
    color: $white;
-   font-size: 22px;
+   font-size: 1.375rem;
    font-weight: 500;
    text-align: center;
    p {
@@ -1273,7 +1273,7 @@ body {
    height: 70px;
    border-radius: 50%;
    border: 2px solid $hover;
-   font-size: 24px;
+   font-size: 1.5rem;
    font-weight: 500;
    line-height: 70px;
    color: $hover;
@@ -1294,7 +1294,7 @@ body {
    padding: .6rem 1rem;
    background-color: $hover_2;
    color: $white;
-   font-size: 20px;
+   font-size: 1.25rem;
    text-align: center;
    p {
       margin-bottom: 0;
@@ -1356,7 +1356,7 @@ body {
    p {
       color: $dark_5;
       font-weight: 600;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
    span {
       color: $hover_2;
@@ -1400,7 +1400,7 @@ body {
    p {
       color: $white;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 1.25rem;
    }
    span {
       color: $hover_4;
@@ -1420,7 +1420,7 @@ body {
     background-color: $default_bg_color;
     @include desktop {
       p {
-         font-size: 15px;
+         font-size: 0.9375rem;
       }
    }
 }
@@ -1430,7 +1430,7 @@ body {
    p {
       color: $white;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 1.25rem;
    }
    span {
       color: $hover_2;
@@ -1443,7 +1443,7 @@ body {
     border-color: $white;
     @include desktop {
       p {
-         font-size: 15px;
+         font-size: 0.9375rem;
       }
    }
 }
@@ -1512,12 +1512,12 @@ body {
    }
    @include tablet {
       h2 {
-       font-size: 30px;
+       font-size: 1.875rem;
      }
    }
    @include mobile {
       h2 {
-         font-size: 30px;
+         font-size: 1.875rem;
       }
       
    }
@@ -1568,21 +1568,21 @@ body {
    transition: all .4s linear 0s;
    p {
       margin-bottom: 0;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
    a {
       color: $white;
-      font-size: 14px;
+      font-size: 0.875rem;
       &:hover {
          text-decoration: none;
       }
    }
    h6 {
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 500;
    }
    span {
-      font-size: 14px;
+      font-size: 0.875rem;
    }
 }
 .member-info-2 {
@@ -1592,43 +1592,43 @@ body {
          padding: 5px 0;
          strong {
             color: $dark_2;
-            font-size: 14px;
+            font-size: 0.875rem;
          }
       }
    }
    span {
       color: $dark_5;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
    h5 {
-      font-size: 18px;
+      font-size: 1.125rem;
       color: $dark_2;
    }
 }
 .member-info-3 {
    h5 {
       color: $dark_2;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: 'Poppins', sans-serif;	
       font-weight:600;
    
    }
    span {
       color: $dark_5;
-      font-size: 14px;
+      font-size: 0.875rem;
       font-weight:500;
    }
 }
 .member-info-4 {
    h5 {
       color: $dark_2;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: 'Poppins', sans-serif;	
       font-weight:600;	
    }
    span {
       color: $dark_5;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
 }
 
@@ -1931,7 +1931,7 @@ body {
       button {
          margin: 10px;
          i {
-            font-size: 22px;
+            font-size: 1.375rem;
          }
          &.owl-prev {
             width: 50px;
@@ -1987,7 +1987,7 @@ body {
       button {
          margin: 10px;
          i {
-            font-size: 22px;
+            font-size: 1.375rem;
          }
          &.owl-prev {
             width: 50px;
@@ -2031,7 +2031,7 @@ body {
 .show_navigation_3 {
    position: relative;
    .owl-nav{
-      font-size: 30px;
+      font-size: 1.875rem;
       @include desktop {
         display: none;
       }
@@ -2041,7 +2041,7 @@ body {
       button {
          margin: 10px;
          i {
-            font-size: 22px;
+            font-size: 1.375rem;
          }
          &.owl-prev {
             position: absolute;
@@ -2101,7 +2101,7 @@ body {
 .show_navigation_4 {
    position: relative;
    .owl-nav{
-      font-size: 30px;
+      font-size: 1.875rem;
       @include desktop {
         display: none;
       }
@@ -2111,7 +2111,7 @@ body {
       button {
          margin: 10px;
          i {
-            font-size: 22px;
+            font-size: 1.375rem;
          }
          &.owl-prev {
             position: absolute;
@@ -2196,14 +2196,14 @@ body {
          font-weight: 600;
       }
       p {
-         font-size: 24px;
+         font-size: 1.5rem;
          color: $dark_6;
          font-weight: 500;
          margin-bottom: 0;
       }
    }
    h5 {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 600;
       a {
          color: $dark_2;
@@ -2223,7 +2223,7 @@ body {
          }
          p {
             @include xl_large {
-               font-size: 16px !important;
+               font-size: 1rem; !important;
             }
             @include large {
                font-size: 12px;
@@ -2241,7 +2241,7 @@ body {
 }
 .event-content {
    h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
       margin-bottom: 15px;
       font-family: "Poppins";
       a {
@@ -2256,7 +2256,7 @@ body {
 }
 .event-content-one {
    h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
       margin-bottom: 15px;
       font-family: "Poppins";
       font-weight: 600;
@@ -2288,14 +2288,14 @@ body {
          font-weight: 600;
       }
       p {
-         font-size: 24px;
+         font-size: 1.5rem;
          color: $dark_6;
          margin-bottom: 0;
          font-weight: 600;
       }
    }
    h5 {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 500;
       a {
          color: $dark_2;
@@ -2321,7 +2321,7 @@ body {
                font-size: 12px;
             }
             @include large {
-               font-size: 14px;
+               font-size: 0.875rem;
             }
          }
       }
@@ -2348,13 +2348,13 @@ body {
          font-weight: 600;
       }
       p {
-         font-size: 24px;
+         font-size: 1.5rem;
          color: $dark_6;
          margin-bottom: 0;
       }
    }
    h5 {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 500;
       a {
          color: $dark_2;
@@ -2380,7 +2380,7 @@ body {
                font-size: 12px;
             }
             @include large {
-               font-size: 14px;
+               font-size: 0.875rem;
             }
          }
       }
@@ -2392,7 +2392,7 @@ body {
 }
 .event-content {
    h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
       margin-bottom: 15px;
       a {
        color: $dark_2;
@@ -2414,7 +2414,7 @@ body {
    width: 85%;
    left: 7%;
    border-radius: 30px;
-   font-size: 14px;
+   font-size: 0.875rem;
    color: $dark_6;
    flex-wrap: wrap;
    @include mobile {
@@ -2423,7 +2423,7 @@ body {
    }
    i {
       color: $hover;
-      font-size: 15px;
+      font-size: 0.9375rem;
    }
    p {
       margin-bottom: 0;
@@ -2442,7 +2442,7 @@ body {
    width: 80%;
    left: 10%;
    border-radius: 30px;
-   font-size: 14px;
+   font-size: 0.875rem;
    color: $dark_6;
    @include tablet {
       width: 96%;
@@ -2454,7 +2454,7 @@ body {
    }
    i {
       color: $hover;
-      font-size: 15px;
+      font-size: 0.9375rem;
    }
    p {
       margin-bottom: 0;
@@ -2481,7 +2481,7 @@ body {
       width: 70%;
       left: 15%;
       border-radius: 30px;
-      font-size: 14px;
+      font-size: 0.875rem;
       color: $dark_6;
       text-align: center;
       @include mobile {
@@ -2490,7 +2490,7 @@ body {
       }
       i {
          color: $hover;
-         font-size: 15px;
+         font-size: 0.9375rem;
       }
       p {
          margin-bottom: 0;
@@ -2502,7 +2502,7 @@ body {
          }
          p {
             padding: 0 5px;
-            font-size: 14px;
+            font-size: 0.875rem;
             color: $dark_5;
          }
       }
@@ -2567,7 +2567,7 @@ body {
       color: $white;
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
-      font-size: 14px;
+      font-size: 0.875rem;
       text-align: center;
       border: 3px solid $white;
    }
@@ -2584,16 +2584,16 @@ body {
    .testimonial-text {
       p {
          font-style: italic;
-         font-size: 18px;
+         font-size: 1.125rem;
       }
    }
    .testimonial-referance {
       strong {
          color: $dark_2;
-         font-size: 16px;
+         font-size: 1rem;
       }
       p {
-         font-size: 16px;
+         font-size: 1rem;
          margin-bottom: 0;
       }
    }
@@ -2623,7 +2623,7 @@ body {
    padding-top: 30px;
    p {
       font-style: italic;
-      font-size: 16px;
+      font-size: 1rem;
    }
    .testimonial-referance {
       strong {
@@ -2656,7 +2656,7 @@ body {
    padding-top: 30px;
    p {
       font-style: italic;
-      font-size: 16px;
+      font-size: 1rem;
    }
    .testimonial-referance {
       strong {
@@ -2674,14 +2674,14 @@ body {
    >p {
       display: inline-block;
       font-style: italic;
-      font-size: 16px;
+      font-size: 1rem;
       &:after {
          content:"\f10e";
          font-family: "Font Awesome 5 Free";
          font-weight: 900;
          position: absolute;
          padding-left: 10px;
-         font-size: 22px;
+         font-size: 1.375rem;
          color: $dark_14;
       }
    }
@@ -2881,7 +2881,7 @@ p {
    .blog-content-wrapper {
       position: relative;
       h4 {
-         font-size: 16px;
+         font-size: 1rem;
          font-weight: 600;
          font-family: 'Poppins', sans-serif;
          line-height: 1.5rem;
@@ -2920,7 +2920,7 @@ p {
    }
    .blog-content-wrapper {
       h4 {
-         font-size: 16px;
+         font-size: 1rem;
          font-weight: 600;
          font-family: 'Poppins', sans-serif;
          line-height: 1.5rem;
@@ -2960,7 +2960,7 @@ p {
    }
    .blog-content-wrapper {
       h4 {
-         font-size: 16px;
+         font-size: 1rem;
          font-weight: 500;
          font-family: 'Poppins', sans-serif;
          line-height: 1.5rem;
@@ -2982,7 +2982,7 @@ p {
 
 .post-meta {
    span {
-      font-size: 14px;
+      font-size: 0.875rem;
       font-style: italic;
    }
 }
@@ -2990,7 +2990,7 @@ p {
    .blog-meta {
       span {
          color: $hover;
-         font-size: 14px;
+         font-size: 0.875rem;
          font-weight: 500;
          &.seperator {
             font-size: 12px;
@@ -3004,7 +3004,7 @@ p {
    .blog-meta-2 {
       span {
          color: $hover_2;
-         font-size: 14px;
+         font-size: 0.875rem;
          a {
             color: $hover_2;
          }
@@ -3021,7 +3021,7 @@ p {
             transition: all .4s linear 0s;
             margin-top: 0;
             text-transform: capitalize;
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 1.8rem;
             font-weight: 600;
             font-family: "Poppins";
@@ -3040,7 +3040,7 @@ p {
          display: inline-block;
          color: $hover;
          font-weight: 500;
-         font-size: 15px;
+         font-size: 0.9375rem;
          text-transform: uppercase;
          margin-top: 15px;
          transition: all .4s linear 0s;
@@ -3066,7 +3066,7 @@ p {
             transition: all .4s linear 0s;
             margin-top: 0;
             text-transform: capitalize;
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 1.8rem;
             font-family: "Poppins";
             font-weight: 600;
@@ -3081,7 +3081,7 @@ p {
          display: inline-block;
          color: $hover_2;
          font-weight: 500;
-         font-size: 15px;
+         font-size: 0.9375rem;
          text-transform: uppercase;
          margin-top: 15px;
          transition: all .4s linear 0s;
@@ -3151,7 +3151,7 @@ p {
       }
       p {
          margin-bottom: 0;
-         font-size: 18px;
+         font-size: 1.125rem;
          text-transform: capitalize;
 
       }
@@ -3225,7 +3225,7 @@ p {
 
          a {
             color: $white;
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 400;
             transition: all .4s linear 0s;
             &:hover {
@@ -3243,7 +3243,7 @@ p {
 
          a {
             color: $white;
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 400;
             transition: all .4s linear 0s;
             &:hover {
@@ -3257,7 +3257,7 @@ p {
       h5 {
          a {
             color: $white;
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 400;
             transition: all .4s linear 0s;
             &:hover {
@@ -3273,7 +3273,7 @@ p {
 }
 .widget-meta {
    span {
-      font-size: 14px;
+      font-size: 0.875rem;
       font-style: italic;
    }
 }
@@ -3290,7 +3290,7 @@ p {
          }
          a {
             display: inline-block;
-            font-size: 16px;
+            font-size: 1rem;
             color: $white;
             padding: 5px;
             text-transform: capitalize;
@@ -3316,7 +3316,7 @@ p {
          }
          a {
             display: inline-block;
-            font-size: 16px;
+            font-size: 1rem;
             color: $white;
             padding: 5px;
             text-transform: capitalize;
@@ -3342,7 +3342,7 @@ p {
          }
          a {
             display: inline-block;
-            font-size: 16px;
+            font-size: 1rem;
             color: $white;
             padding: 5px;
             text-transform: capitalize;
@@ -3492,7 +3492,7 @@ p {
 }
 .address-widget {
    span {
-      font-size: 28px;
+      font-size: 1.75rem;
    }
 }
 .subscribe-wrapper {
@@ -3520,7 +3520,7 @@ p {
       font-size: 50px;
       color: $dark_2;
       @include mobile {
-         font-size: 30px;
+         font-size: 1.875rem;
       }
    }
    input {
@@ -3530,7 +3530,7 @@ p {
       border-radius: 35px;
       position: relative;
       padding: 0 15px;
-      font-size: 14px;
+      font-size: 0.875rem;
       &:focus {
          outline: 0;
          box-shadow: none;
@@ -3549,7 +3549,7 @@ p {
       top: 0;
       border: 0;
       width: 165px;
-      font-size: 16px;
+      font-size: 1rem;
       &:focus {
          outline: 0;
          box-shadow: none;
@@ -3557,7 +3557,7 @@ p {
       @include desktop {
          border-radius: 20px;
          width: 110px;
-         font-size: 14px;
+         font-size: 0.875rem;
       }
       @include mobile {
          position: static;
@@ -3605,7 +3605,7 @@ p {
 .scroll-top {
    .scroll-icon {
        color: $white;
-       font-size: 20px;
+       font-size: 1.25rem;
        line-height: 53px;
        text-align: center;
    }
@@ -3712,7 +3712,7 @@ p {
    margin-right: 30px;
    i {
       color: $hover;
-      font-size: 25px;
+      font-size: 1.5625rem;
       width: 60px;
       height: 60px;
       line-height: 55px;
@@ -3736,7 +3736,7 @@ p {
 .featured-2-text {
    h5 {
         color: $dark_2;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-family: 'Poppins', sans-serif;	
         font-weight:600;
    }
@@ -3773,7 +3773,7 @@ p {
       border-radius: 50%;
       transition: all .4s linear 0s;
       i {
-         font-size: 30px;
+         font-size: 1.875rem;
          background-color: $white;
          padding: 35px;
          border-radius: 50%;
@@ -3891,7 +3891,7 @@ p {
        height: 55px;
        background-color: $hover_4;
        color: $white;
-       font-size: 16px;
+       font-size: 1rem;
        text-transform: uppercase;
        font-weight: 500;
        letter-spacing: 2px;
@@ -3938,7 +3938,7 @@ p {
       background-color: $hover_4;
       color: $white;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 0.9375rem;
       font-weight: 500;
       cursor: pointer;
       border: 0;
@@ -3981,7 +3981,7 @@ p {
       background-color: $hover;
       color: $white;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 0.9375rem;
       font-weight: 500;
       cursor: pointer;
       border: 0;
@@ -4009,13 +4009,13 @@ p {
 .single-timeline {
    h4 {
       color: $dark_2;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: 'Poppins', sans-serif;	
       font-weight:600;	
    }
    span {
       color: $hover;
-      font-size: 14px;
+      font-size: 0.875rem;
    }
    .timeline-text {
       padding-top: 25px;
@@ -4040,7 +4040,7 @@ p {
          top: -40px;
          width: 30px;
          height: 30px;
-         font-size: 22px;
+         font-size: 1.375rem;
          line-height: 30px;
       }
       &:before {
@@ -4051,7 +4051,7 @@ p {
          top: -40px;
          width: 30px;
          height: 30px;
-         font-size: 22px;
+         font-size: 1.375rem;
          line-height: 30px;
       }
       .single-timeline {
@@ -4068,7 +4068,7 @@ p {
             color: $white;
             background-color: $hover;
             border-radius: 50%;
-            font-size: 30px;
+            font-size: 1.875rem;
             line-height: 50px;
             text-align: center;
          }
@@ -4100,7 +4100,7 @@ p {
        font-family: 'Poppins', sans-serif;
    }
    h6 {
-      font-size: 20px;
+      font-size: 1.25rem;
       color: $dark_5;
       font-weight: 600;
    }
@@ -4116,7 +4116,7 @@ p {
       width: 100%;
    }
    h6 {
-      font-size: 16px;
+      font-size: 1rem;
       color: $dark_2;
    }
 }
@@ -4127,7 +4127,7 @@ p {
    .member-intro {
       h3 {
          a {
-            font-size: 20px;
+            font-size: 1.25rem;
             color: $dark_2;
             transition: all .4s linear 0s;
             &:hover {
@@ -4136,7 +4136,7 @@ p {
          }
       }
       p {
-         font-size: 14px;
+         font-size: 0.875rem;
          color: $dark_5;
          strong {
             color: $dark_2;
@@ -4151,7 +4151,7 @@ p {
    display: flex;
    justify-content: space-between;
    p {
-      font-size: 14px;
+      font-size: 0.875rem;
       color: $dark_5;
       strong {
          color: $dark_2;
@@ -4350,7 +4350,7 @@ p {
    visibility: hidden;
    transition: all .4s linear 0s;
    h3 {
-      font-size: 30px;
+      font-size: 1.875rem;
       color: $white;
       margin-bottom: 20px;
       padding: 0 25px;
@@ -4396,7 +4396,7 @@ p {
 .post-text {
    h2 {
       a {
-         font-size: 30px;
+         font-size: 1.875rem;
          color: $dark_2;
          transition: all .4s linear 0s;
          &:hover {
@@ -4432,7 +4432,7 @@ p {
          color: $white;
          width: 80px;
          height: 100%;
-         font-size: 25px;
+         font-size: 1.5625rem;
          color: $white;
          border: 0;
          &.home2-opt {
@@ -4463,7 +4463,7 @@ p {
       }
       .latest-content {
          a {
-            font-size: 16px;
+            font-size: 1rem;
             color: $dark_2;
             transition: all .4s linear 0s;
             display: -webkit-box;
@@ -4479,7 +4479,7 @@ p {
          .latest-meta {
             span {
                color: $dark_5;
-               font-size: 14px;
+               font-size: 0.875rem;
             }
          }
       }
@@ -4516,7 +4516,7 @@ p {
          margin-bottom: 0;
       }
       h4 {
-         font-size: 20px;
+         font-size: 1.25rem;
          color: $dark_2;
          text-align: center;
          font-weight:600;
@@ -4535,7 +4535,7 @@ p {
             display: inline-block;
             color: $dark_5;
             text-transform: uppercase;
-            font-size: 15px;
+            font-size: 0.9375rem;
             padding: 10px 15px;
             background-color: $dark_9;
             margin: 5px 3px;
@@ -4638,12 +4638,12 @@ p {
 .single-event-content {
    h3 {
       a {
-         font-size: 24px;
+         font-size: 1.5rem;
          color: $dark_2;
          transition: all .4s linear 0s;
          font-weight: 600;
          @include desktop {
-            font-size: 20px;
+            font-size: 1.25rem;
          }
          &:hover {
             text-decoration: none;
@@ -4668,7 +4668,7 @@ p {
 .single-event-date {
    p {
       margin-bottom: 0;
-      font-size: 20px;
+      font-size: 1.25rem;
       color: $hover;
    }
    span {
@@ -4692,7 +4692,7 @@ p {
       p {
          margin-bottom: 0;
          color: $dark_5;
-         font-size: 14px;
+         font-size: 0.875rem;
       }
       i {
          color: $hover;
@@ -4702,7 +4702,7 @@ p {
       h4 {
          a {
             color: $dark_2;
-            font-size: 20px;
+            font-size: 1.25rem;
             transition: all .4s linear 0s;
             &:hover {
                text-decoration: none;
@@ -4795,7 +4795,7 @@ p {
          padding-right: 5px;
       }
       p {
-         font-size: 14px;
+         font-size: 0.875rem;
          color: $dark_5;
          @include mobile {
             font-size: 12px;
@@ -4806,7 +4806,7 @@ p {
 }
 .details-title {
    h2 {
-      font-size: 30px;
+      font-size: 1.875rem;
       color: $dark_2;
    }
 }
@@ -4822,7 +4822,7 @@ p {
 }
 .comments-count {
    h2 {
-      font-size: 20px;
+      font-size: 1.25rem;
       color: $dark_2;
       font-family: 'Poppins', sans-serif;
       font-weight:600;
@@ -4851,7 +4851,7 @@ p {
       top:0;
       right: 0;
       color: $hover;
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 500;
       &:hover {
          text-decoration: none;
@@ -4864,7 +4864,7 @@ p {
 .author-data {
    a {
       color: $dark_2;
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 600;
       transition: all .4s linear 0s;
       font-family: 'Poppins', sans-serif;
@@ -4882,7 +4882,7 @@ p {
 }
 .comment-form-wrapper {
    h2 {
-      font-size: 20px;
+      font-size: 1.25rem;
       color: $dark_2;
       margin-bottom: 35px;
    }
@@ -4931,7 +4931,7 @@ p {
    .single-blog-content {
       h4 {
          a {
-            font-size: 16px;
+            font-size: 1rem;
             color: $dark_2;
             transition: all .4s linear 0s;
             &:hover {
@@ -4942,7 +4942,7 @@ p {
       }
       span {
          color: $dark_5;
-         font-size: 14px;
+         font-size: 0.875rem;
       }
    }
 }
@@ -4962,7 +4962,7 @@ p {
         transition: all .4s linear 0s;
         span {
            color: $hover;
-           font-size: 25px;
+           font-size: 1.5625rem;
         }
         &:hover {
          background-color: $hover !important;
@@ -5076,7 +5076,7 @@ p {
 .slider-area-3 {
 	.slider-content {
 		h6 {
-			font-size: 15px;
+			font-size: 0.9375rem;
 		}
 	}
 }

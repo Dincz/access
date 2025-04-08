@@ -54,12 +54,12 @@
                 }
             }
             span{
-                font-size: 30px;
+                font-size: 1.875rem;
                 font-weight:400;
                 color: $btn-bg;
                 font-family: $font1;
                 @media #{$mobile_device} {
-                   font-size: 20px;
+                   font-size: 1.25rem;
                 }
             }
             h3{
@@ -72,7 +72,7 @@
             margin-top: 55px;
             margin-bottom: 40px;
              @media #{$mobile_device} {
-                font-size: 30px;
+                font-size: 1.875rem;
                 line-height: 1.2;
                 margin: 20px 0;
             }
@@ -84,17 +84,17 @@
             }
             }
             p{
-                font-size: 30px;
+                font-size: 1.875rem;
                 font-weight: 400;
                 color: #FFF;
                 margin-bottom: 34px;
                 margin-top: 10px;
                 font-family: $font1;
              @media #{$mid_device} {
-                font-size: 16px;
+                font-size: 1rem;
              }
              @media #{$mobile_device} {
-                font-size: 16px;
+                font-size: 1rem;
              }
             }
             .video_service_btn> a{
@@ -174,7 +174,7 @@
             }
             label{
                 display: block;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 color: #FDAE5C;
                 
             }
@@ -182,7 +182,7 @@
                 width: 166px;
                 background: transparent;
                 color: #C7C7C7;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 font-weight: 400;
                 border: 1px solid rgba(255,255,255,.40);
                 height: 45px;
@@ -218,7 +218,7 @@
             }
             label{
                 display: block;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 color: #FDAE5C;
                 
             }
@@ -226,7 +226,7 @@
                 width: 110px;
                 background: transparent;
                 color: #C7C7C7;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 font-weight: 400;
                 border: 1px solid rgba(255,255,255,.40);
                 height: 45px;
@@ -263,7 +263,7 @@
         background-color: transparent;
         @include border-radius(0);
         left: 50px;
-        font-size: 14px;
+        font-size: 0.875rem;
         border: none;
         left: 150px;
         line-height: 120px;

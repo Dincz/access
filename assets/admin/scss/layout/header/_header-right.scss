@@ -9,7 +9,7 @@
         align-items: center;
         .nav-link {
             color: $l-ctd;
-            font-size: 18px;
+            font-size: 1.125rem;
         }
     }
 	.right-sidebar{
@@ -84,9 +84,9 @@
 				}
 			}
             i {
-                font-size: 24px;
+                font-size: 1.5rem;
 				@include respond('laptop') {
-					font-size: 18px;
+					font-size: 1.125rem;
 				}
 				
             }
@@ -98,7 +98,7 @@
 			}
             .badge {
                 position: absolute;
-                font-size: 14px;
+                font-size: 0.875rem;
                 border-radius: 40px;
 				right: -8px;
 				top: -8px;
@@ -267,7 +267,7 @@
         .media {
 			width: 45px !important;
 			height: 45px !important;
-			font-size: 18px !important;
+			font-size: 1.125rem; !important;
 			
             // &:last-child{
             //     border-bottom: 0px;
