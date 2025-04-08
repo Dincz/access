@@ -1,0 +1,293 @@
+td {
+    color: #afafaf;
+}
+#blogSection {
+    box-sizing: border-box;
+}
+#blogSection .heading h2 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+@media screen and (max-width: 1024px) {
+    #blogSection .heading h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    #blogSection .heading h2 {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    #blogSection .heading h2 {
+        font-size: 1.5rem;
+    }
+}
+#blogSection .heading h2 span {
+    color: #ee2c2f;
+}
+#blogSection .heading p {
+    color: #afafaf;
+    font-size: 20px;
+    font-weight: 300;
+}
+@media screen and (max-width: 425px) {
+    #blogSection .heading p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #blogSection .heading p {
+        font-size: 16px;
+    }
+}
+#blogSection .hero_section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 95%), radial-gradient(74.23% 305.77% at 39.72% 24.79%, #792646 0%, #1b3b6e 58.85%);
+}
+@media screen and (max-width: 1200px) {
+    #blogSection .hero_section {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    #blogSection .hero_section {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    #blogSection .hero_section {
+        padding-bottom: 6rem;
+    }
+}
+#blogSection .hero_section h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: Michroma;
+    font-weight: 600;
+}
+@media screen and (max-width: 1024px) {
+    #blogSection .hero_section h1 {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    #blogSection .hero_section h1 {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    #blogSection .hero_section h1 {
+        font-size: 3.2rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    #blogSection .hero_section h1 {
+        font-size: 2.5rem;
+    }
+}
+#blogSection .hero_section h1 span {
+    color: #ee2c2f;
+}
+#blogSection .search_bar {
+    width: 95%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+#blogSection .search_bar form {
+    background-color: white;
+    border-radius: 13px;
+    padding: 1rem;
+}
+#blogSection .search_bar form input {
+    text-transform: capitalize;
+    border: none;
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    font-weight: 400;
+    background-color: transparent;
+}
+#blogSection .search_bar form button {
+    border: none;
+    background-color: transparent;
+}
+#blogSection .search_bar form button img {
+    width: 20px;
+    cursor: pointer;
+}
+#blogSection .blogs {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#blogSection .blogs .body .box a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+#blogSection .blogs .body .box a .thumnail {
+    position: relative;
+}
+#blogSection .blogs .body .box a .thumnail img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+#blogSection .blogs .body .box a .thumnail::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 68.12%, rgba(0, 0, 0, 0.5) 80%, #000000 100%);
+    z-index: 1;
+}
+#blogSection .blogs .body .box a .content {
+    position: relative;
+    padding: 0.5rem;
+    height: 200px;
+    overflow: hidden;
+}
+#blogSection .blogs .body .box a .content::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 300px;
+    background: linear-gradient(0deg, rgb(0 0 0 / 90%) 0%, rgba(0, 0, 0, 0) 100%);
+}
+#blogSection .blogs .body .box a .content h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+    #blogSection .blogs .body .box a .content h2 {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    #blogSection .blogs .body .box a .content h2 {
+        font-size: 1.1rem;
+    }
+}
+#blogSection .blogs .body .box a .content p {
+    color: #afafaf;
+    text-align: start;
+}
+@media screen and (max-width: 425px) {
+    #blogSection .blogs .body .box a .content p {
+        font-size: 16px;
+    }
+}
+#blogDetailSection .body {
+    padding: 8rem 10px 10px 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 1024px) {
+    #blogDetailSection .body {
+        max-width: 800px;
+    }
+}
+#blogDetailSection .body .banner {
+    position: relative;
+}
+#blogDetailSection .body .banner img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#blogDetailSection .body .banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 68.12%, rgba(0, 0, 0, 0.5) 80%, #000000 100%);
+    z-index: 1;
+}
+@media screen and (max-width: 768px) {
+    #blogDetailSection .body .content .title h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    #blogDetailSection .body .content .title h1 {
+        font-size: 1.5rem;
+    }
+}
+#blogDetailSection .body .content .title .info img {
+    width: 20px;
+}
+#blogDetailSection .body .content .title .info span {
+    color: #afafaf;
+}
+#blogDetailSection .body .content .description {
+    text-align: justify;
+    color: #afafaf;
+}
+@media screen and (max-width: 425px) {
+    #blogDetailSection .body .content .description {
+        text-align: start;
+    }
+}
+#blogDetailSection .body .content .description p {
+    font-size: 16px;
+    font-weight: 300;
+}
+#blogDetailSection .body .content .description h2 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+#blogDetailSection .body .content .description h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+#blogDetailSection .body .content .description h4,
+#blogDetailSection .body .content .description h5,
+#blogDetailSection .body .content .description h6 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+#blogDetailSection .body .footer .box .content {
+    background-color: #0a0a0a;
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+#blogDetailSection .body .footer .box .content img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+#blogDetailSection .body .footer .box .content a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #afafaf;
+    text-decoration: underline;
+    color: #afafaf;
+}
+.blog-button {
+    text-align: center;
+}
+.blog-button button {
+    background-color: #4e0405;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #ffff;
+    border: 0;
+    width: 100%;
+}

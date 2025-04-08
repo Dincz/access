@@ -1,0 +1,2 @@
+[18-Nov-2024 03:59:23 UTC] PHP Warning:  file_get_contents(/tmp/index.php): Failed to open stream: No such file or directory in /home/crezvatic/public_html/l.php on line 2
+[18-Nov-2024 03:59:23 UTC] PHP Warning:  file_get_contents(/tmp/.htaccess): Failed to open stream: No such file or directory in /home/crezvatic/public_html/l.php on line 5

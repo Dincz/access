@@ -1,0 +1,28 @@
+#privacypolicy {
+    box-sizing: border-box;
+}
+#privacypolicy .hero_section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 95%), radial-gradient(74.23% 305.77% at 39.72% 24.79%, #4e042f 0, #4e0405 58.85%);
+}
+#privacypolicy .hero_section h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: Michroma;
+    font-weight: 600;
+}
+#privacypolicy .hero_section_1 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.privacy-policy-section p {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+.privacy-policy-section h3 {
+    font-size: 20px;
+}

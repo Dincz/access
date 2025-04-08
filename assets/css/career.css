@@ -1,0 +1,161 @@
+.careerSection h1,
+.careerSection h2,
+.careerSection h3,
+.careerSection h4,
+.careerSection h5,
+.careerSection h6 {
+	text-transform: uppercase;
+	font-family: Michroma;
+}
+.roleButtonCont a:hover,
+.openRoleBtn:hover {
+	color: #ee2c2f;
+	cursor: pointer;
+}
+.careerSection h2 {
+	font-size: 5rem;
+	font-weight: 600;
+}
+.heroHeading {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.careetAtCont {
+	padding-top: 50px;
+}
+.carerAtCrez::before {
+	content: "";
+	position: absolute;
+	padding: 1px 30px;
+	background-color: white;
+	left: -70px;
+	top: 50%;
+}
+.carerAtCrez::after {
+	content: "";
+	position: absolute;
+	padding: 1px 30px;
+	background-color: white;
+	right: -70px;
+	top: 50%;
+}
+
+.mumbaiBgImg {
+	margin-top: -150px;
+	opacity: 0.7;
+}
+.abtSect {
+	padding-top: 5rem !important;
+}
+.whyUsTitle {
+	font-family: "Poppins" !important;
+}
+.roleButtonCont {
+	position: relative;
+	z-index: 9;
+}
+.openRoleBtn {
+	text-decoration: none !important;
+	border: none !important ;
+	padding: 0.5rem 1.5rem;
+	color: #f2f2f2;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: 500;
+	transition: 0.2s;
+	background: rgb(78, 4, 5) !important;
+}
+
+.openroleSection .card p,
+.gred ul {
+	color: #b5b5b5;
+}
+.gred {
+	position: relative;
+	/* color: white; */
+	/* display: -webkit-box; */
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 200px !important;
+}
+
+.gred::before {
+	content: ""; /* Creates an empty pseudo-element */
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(0 0 0) 50%);
+	z-index: 1; /* Places the gradient overlay above the text */
+	opacity: 0.5; /* Adjusts the intensity of the overlay */
+}
+
+.gred span {
+	position: relative;
+	z-index: 2; /* Ensures the text appears above the gradient */
+}
+
+.rdmore {
+	background-color: transparent !important;
+	border: 1px solid rgb(78, 4, 5) !important;
+	color: rgb(252, 25, 33) !important;
+	/* color: ; */
+}
+.btn-close {
+	background-color: whitesmoke !important;
+}
+.department {
+	width: fit-content !important;
+	background-color: rgb(78, 4, 5);
+}
+
+.mobileMumbai {
+	display: none;
+}
+@media (min-width:768px) {
+	.col-md-4{
+		width: 33.33333333% !important;
+	}
+}
+@media (max-width: 600px) {
+	.carerAtCrez,
+	.openRoleBtn {
+		font-size: 12px;
+	}
+	.careerSection h2,
+	.whyUsTitle,
+	.roleTitle,
+	.modal-title {
+		font-size: 18px !important;
+	}
+
+	#aboutUsSection .hero_section_1 .left p {
+		font-size: 16px !important;
+	}
+}
+
+@media (max-width: 425px) {
+	.openroleSection h3 {
+		padding-bottom: 0 !important;
+	}
+	.content {
+		padding-bottom: 0px !important;
+	}
+	.mumbaiBgImg {
+		margin-top: -90px;
+	}
+	.mobileMumbai {
+		display: block;
+		width: 100vw;
+	}
+	.deskMumbai {
+		display: none;
+	}
+}

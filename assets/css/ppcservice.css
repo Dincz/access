@@ -1,0 +1,305 @@
+#ppc_services {
+    box-sizing: border-box;
+}
+#ppc_services .heading h2 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+@media screen and (max-width: 1024px) {
+    #ppc_services .heading h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    #ppc_services .heading h2 {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    #ppc_services .heading h2 {
+        font-size: 1.5rem;
+    }
+}
+#ppc_services .heading h2 span,
+#ppc_services .hero_area .left h1 span,
+#ppc_services .ques-ans h2 span {
+    color: #ee2c2f;
+}
+#ppc_services .hero_area {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10rem;
+}
+#ppc_services .contact_us .content h2,
+#ppc_services .hero_area .left h1 {
+    font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+    #ppc_services .hero_area .left h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    #ppc_services .hero_area .left {
+        align-items: center;
+    }
+    #ppc_services .hero_area .left h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #ppc_services .hero_area .left h2 {
+        text-align: center;
+    }
+}
+#ppc_services .hero_area .left h2 {
+    color: #afafaf;
+    font-size: 25px;
+    font-weight: 300;
+}
+@media screen and (max-width: 1200px) {
+    #ppc_services .hero_area {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    #ppc_services .hero_area .left h2 {
+        font-size: 20px;
+    }
+}
+#ppc_services .hero_area .left #ctc_button {
+    text-align: start !important;
+}
+#ppc_services .hero_area .right img {
+    width: 100%;
+}
+#ppc_services .platform_management,
+#ppc_services .ques-ans {
+    padding-top: 3rem;
+}
+#ppc_services .ques-ans h2 {
+    font-size: 2rem;
+}
+#ppc_services .ques-ans p {
+    font-size: 20px;
+    color: #afafaf;
+}
+@media screen and (max-width: 425px) {
+    #ppc_services .ques-ans h2 {
+        font-size: 22px;
+    }
+    #ppc_services .ques-ans p {
+        font-size: 18px;
+    }
+    #ppc_services .approach .body {
+        padding: 1rem !important;
+    }
+}
+#ppc_services .approach {
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+}
+#ppc_services .approach .body .box {
+    position: relative;
+}
+#ppc_services .approach .body .box .content {
+    width: 600px;
+    background-color: #0a0a0a;
+    border: 3px solid rgba(255, 255, 255, 0.16);
+    border-radius: 20px;
+}
+@media screen and (max-width: 500px) {
+    #ppc_services .approach .body .box {
+        justify-content: center !important;
+    }
+    #ppc_services .approach .body .box .content {
+        flex-direction: column;
+    }
+}
+#ppc_services .approach .body .box .content .left img {
+    border-radius: 15px;
+    width: 200px;
+}
+#ppc_services .approach .body .box .content .right h2 {
+    font-size: 1.5rem;
+}
+#ppc_services .approach .body .box .content .right p {
+    color: #afafaf;
+    font-size: 18px;
+}
+#ppc_services .approach .body .box:nth-child(odd)::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 150px;
+    top: 50%;
+    right: 99px;
+    border-top: 3px dashed #ee2c2f;
+    border-right: 3px dashed #ee2c2f;
+    border-radius: 0 30px 0 0;
+    z-index: -1;
+}
+#ppc_services .approach .body .box:nth-child(2n)::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 150px;
+    top: 50%;
+    left: 99px;
+    border-top: 3px dashed #ee2c2f;
+    border-left: 3px dashed #ee2c2f;
+    border-radius: 30px 0 0;
+    z-index: -1;
+}
+@media screen and (max-width: 768px) {
+    #ppc_services .hero_area .left h2 {
+        font-size: 18px;
+    }
+    #ppc_services .approach .body .box:nth-child(odd)::after {
+        right: 50px;
+    }
+    #ppc_services .approach .body .box:nth-child(2n)::after {
+        left: 50px;
+    }
+}
+#ppc_services .approach .body .box:last-child::after {
+    display: none;
+}
+#ppc_services .platform_management .body,
+#ppc_services .review {
+    padding-top: 2rem;
+}
+#ppc_services .platform_management .body .box {
+    margin-bottom: 10px;
+}
+#ppc_services .platform_management .body .box img {
+    width: 70px;
+}
+#ppc_services .platform_management .body .box p {
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+    #ppc_services .approach .body .box .content {
+        width: 450px;
+    }
+    #ppc_services .approach .body .box .content .left img {
+        width: 150px;
+    }
+    #ppc_services .approach .body .box .content .right h2 {
+        font-size: 1.2rem;
+    }
+    #ppc_services .approach .body .box .content .right p {
+        font-size: 16px;
+    }
+    #ppc_services .platform_management .body .box p {
+        font-size: 20px;
+    }
+}
+#ppc_services .review .content .box {
+    background-color: #0a0a0a;
+    color: #f2f2f2;
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.16);
+}
+#ppc_services .review .content .box .rating img {
+    width: 15px;
+}
+#ppc_services .review .content .box .profile .right span,
+#ppc_services .review .content .box .review_content p {
+    color: #afafaf;
+}
+#ppc_services .review .content .box .profile .left img {
+    width: 60px;
+    border-radius: 50px;
+}
+#ppc_services .review .content .box .quote {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+#ppc_services .review .content .box .quote img {
+    width: 80px;
+    opacity: 0.5;
+}
+#ppc_services .contact_us {
+    padding-top: 5rem;
+}
+@media screen and (max-width: 425px) {
+    #ppc_services .platform_management .body .box img {
+        width: 60px;
+    }
+    #ppc_services .review {
+        padding-top: 2rem;
+    }
+    #ppc_services .review .content .box {
+        padding: 1.5rem !important;
+    }
+    #ppc_services .review .content .box .review_content p {
+        font-size: 16px;
+    }
+    #ppc_services .review .content .box .profile .left img,
+    #ppc_services .review .content .box .quote img {
+        width: 50px;
+    }
+    #ppc_services .contact_us .content h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    #ppc_services .hero_area {
+        padding-top: 8rem;
+    }
+    #ppc_services .hero_area .left h1 {
+        font-size: 2rem;
+    }
+    #ppc_services .hero_area .left h2,
+    #ppc_services .ques-ans p {
+        font-size: 16px;
+    }
+    #ppc_services .approach .body .box .content {
+        align-items: center;
+    }
+    #ppc_services .approach .body .box .content .right h2,
+    #ppc_services .approach .body .box .content .right p {
+        text-align: center;
+    }
+    #ppc_services .approach .body .box:nth-child(2n)::after,
+    #ppc_services .approach .body .box:nth-child(odd)::after {
+        display: none;
+    }
+    #ppc_services .platform_management .body .box p {
+        font-size: 18px;
+    }
+    #ppc_services .contact_us .content h2 {
+        font-size: 1.5rem;
+    }
+}
+#ppc_services .contact_us .content h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #afafaf;
+}
+@media screen and (max-width: 425px) {
+    #ppc_services .contact_us .content h3 {
+        font-size: 16px;
+    }
+}
+#ppc_services .contact_us .contact {
+    margin-top: 1rem;
+}
+#ppc_services .contact_us .contact a {
+    text-decoration: none;
+    background-color: #ee2c2f;
+    padding: 0.5rem 1rem;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
