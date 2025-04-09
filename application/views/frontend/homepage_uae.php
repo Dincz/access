@@ -48,7 +48,7 @@
             <div class="scrollTrigger box d-flex flex-column justify-content-center align-items-start gap-3">
                 <span>1</span>
                 <div class="icon">
-                    <img src="<?php echo asset_url() ?>images/icons/5.webp" alt="icons">
+                    <img src="<?php echo asset_url() ?>images/icons/5.webp" alt="Know your Client">
                 </div>
                 <h3 class="m-0">Know your Client</h3>
                 <p class="m-0">
@@ -58,7 +58,7 @@
             <div class="scrollTrigger box d-flex flex-column justify-content-center align-items-start gap-3">
                 <span>2</span>
                 <div class="icon">
-                    <img src="<?php echo asset_url() ?>images/icons/24.webp" alt="icons">
+                    <img src="<?php echo asset_url() ?>images/icons/24.webp" alt="know Your Competitor">
                 </div>
                 <h3 class="m-0">Know Your Competitor</h3>
                 <p class="m-0">
@@ -69,7 +69,7 @@
             <div class="scrollTrigger box d-flex flex-column justify-content-center align-items-start gap-3">
                 <span>3</span>
                 <div class="icon">
-                    <img src="<?php echo asset_url() ?>images/icons/6.webp" alt="icons">
+                    <img src="<?php echo asset_url() ?>images/icons/6.webp" alt="Know Your Audience">
                 </div>
                 <h3 class="m-0">Know Your Audience</h3>
                 <p class="m-0">
@@ -81,7 +81,7 @@
             <div class="scrollTrigger box d-flex flex-column justify-content-center align-items-start gap-3">
                 <span>4</span>
                 <div class="icon">
-                    <img src="<?php echo asset_url() ?>images/icons/7.webp" alt="icons">
+                    <img src="<?php echo asset_url() ?>images/icons/7.webp" alt="Rigorous Audit">
                 </div>
                 <h3 class="m-0">Rigorous Audit</h3>
                 <p class="m-0">
@@ -95,7 +95,7 @@
             <div class="scrollTrigger box d-flex flex-column justify-content-center align-items-start gap-3">
                 <span>5</span>
                 <div class="icon">
-                    <img src="<?php echo asset_url() ?>images/icons/8.webp" alt="icons">
+                    <img src="<?php echo asset_url() ?>images/icons/8.webp" alt="Strategize">
                 </div>
                 <h3 class="m-0">Strategize</h3>
                 <p class="m-0">
@@ -106,7 +106,7 @@
             <div class="scrollTrigger box d-flex flex-column justify-content-center align-items-start gap-3">
                 <span>6</span>
                 <div class="icon">
-                    <img src="<?php echo asset_url() ?>images/icons/9.webp" alt="icons">
+                    <img src="<?php echo asset_url() ?>images/icons/9.webp" alt="Develop A workflow">
                 </div>
                 <h3 class="m-0">Develop A workflow</h3>
                 <p class="m-0">
@@ -139,7 +139,7 @@
             <!-- Calendly inline widget end -->
             <!-- Calendly inline widget end -->
 
-            <!-- Cal inline embed code begins -->
+            <!-- Cal inline embed code begme -->
             <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
             <script type="text/javascript">
                 (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
@@ -217,7 +217,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-2">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/17.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/17.webp" alt="Performance Marketing">
                     </div>
                     <h5 class="m-0">Performance Marketing</h5>
                 </div>
@@ -225,7 +225,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/13-1.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/13-1.webp" alt="Digital Marketing">
                     </div>
                     <h5 class="m-0">Digital Marketing</h5>
                 </div>
@@ -233,7 +233,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/19.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/19.webp" alt="Social Media Marketing">
                     </div>
                     <h5 class="m-0">Social Media Marketing</h5>
                 </div>
@@ -241,7 +241,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/22.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/22.webp" alt="Google/Facebook Ads">
                     </div>
                     <h5 class="m-0">Google/Facebook Ads</h5>
                 </div>
@@ -249,7 +249,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/14-1.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/14-1.webp" alt="Website Design & Development">
                     </div>
                     <h5 class="m-0">Website Design & Development</h5>
                 </div>
@@ -257,7 +257,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/18.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/18.webp" alt="Content & SEO Strategy">
                     </div>
                     <h5 class="m-0">Content & SEO Strategy</h5>
                 </div>
@@ -265,7 +265,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/21.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/21.webp" alt="Video Creation & Motion Graphics">
                     </div>
                     <h5 class="m-0">Video Creation & Motion Graphics</h5>
                 </div>
@@ -273,7 +273,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/16.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/16.webp" alt="Business Consulting & Strategy">
                     </div>
                     <h5 class="m-0">Business Consulting & Strategy</h5>
                 </div>
@@ -281,7 +281,7 @@
                     class="scrollTrigger box px-4 py-2 d-flex flex-nowrap align-items-center justify-content-start gap-3">
                     <div class="icons">
                         <img class="white-icon lazy" src="<?php echo asset_url() ?>images/placeholder.gif"
-                            data-src="<?php echo asset_url() ?>images/icons/23.webp" alt="Icons">
+                            data-src="<?php echo asset_url() ?>images/icons/23.webp" alt="Call Center Solution">
                     </div>
                     <h5 class="m-0">Call Center Solution</h5>
                 </div>
@@ -307,7 +307,7 @@
                         <img src="<?php echo asset_url() ?>images/icons/enlarge.webp" alt="icon">
                     </div>
                 </div>
-                <img src="<?php echo asset_url() ?>images/archive/white/labindia/1.webp" alt="Poster">
+                <img src="<?php echo asset_url() ?>images/archive/white/labindia/1.webp" alt="LabIndia Poster">
             </div>
             <div class="box">
                 <div class="dots d-flex flex-nowrap justify-content-between align-items-start p-3">
@@ -520,48 +520,48 @@
         <div class="scrollTrigger body">
             <div class="marquee">
                 <div class="marquee__group">
-                    <img src="<?php echo asset_url() ?>images/certificate/1.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/2.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/3.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/4.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/5.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/6.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/7.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/8.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/9.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/10.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/11.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/12.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/13.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/14.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/1.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/2.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/3.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/4.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/5.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/6.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/7.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/8.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/9.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/10.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/11.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/12.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/13.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/14.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/1.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/2.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/3.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/4.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/5.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/6.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/7.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/8.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/9.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/10.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/11.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/12.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/13.webp" alt="">
-                    <img src="<?php echo asset_url() ?>images/certificate/14.webp" alt="">
+                    <img src="<?php echo asset_url() ?>images/certificate/1.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/2.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/3.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/4.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/5.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/6.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/7.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/8.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/9.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/10.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/11.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/12.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/13.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/14.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/1.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/2.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/3.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/4.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/5.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/6.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/7.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/8.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/9.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/10.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/11.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/12.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/13.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/14.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/1.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/2.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/3.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/4.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/5.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/6.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/7.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/8.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/9.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/10.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/11.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/12.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/13.webp" alt="Certificates">
+                    <img src="<?php echo asset_url() ?>images/certificate/14.webp" alt="Certificates">
                 </div>
             </div>
         </div>
@@ -578,22 +578,22 @@
             <div class="content d-flex flex-wrap justify-content-center align-items-center gap-4 py-3">
                 <div
                     class="scrollTrigger box d-flex flex-nowrap justify-content-start align-items-center px-4 py-2 gap-2">
-                    <img src="<?php echo asset_url() ?>images/icons/1.webp" alt="Icon">
+                    <img src="<?php echo asset_url() ?>images/icons/1.webp" alt="Areas of Improvement in your Website Icon">
                     <p class="m-0">Areas of Improvement in your Website</p>
                 </div>
                 <div
                     class="scrollTrigger box d-flex flex-nowrap justify-content-start align-items-center px-4 py-2 gap-2">
-                    <img src="<?php echo asset_url() ?>images/icons/2.webp" alt="Icon">
+                    <img src="<?php echo asset_url() ?>images/icons/2.webp" alt="Growth opportunities in the online world Icon">
                     <p class="m-0">Growth opportunities in the online world</p>
                 </div>
                 <div
                     class="scrollTrigger box d-flex flex-nowrap justify-content-start align-items-center px-4 py-2 gap-2">
-                    <img src="<?php echo asset_url() ?>images/icons/3.webp" alt="Icon">
+                    <img src="<?php echo asset_url() ?>images/icons/3.webp" alt="Digital marketing services your Brand will need & Pricing Icon">
                     <p class="m-0">Digital marketing services your Brand will need & Pricing </p>
                 </div>
                 <div
                     class="scrollTrigger box d-flex flex-nowrap justify-content-start align-items-center px-4 py-2 gap-2">
-                    <img src="<?php echo asset_url() ?>images/icons/4.webp" alt="Icon">
+                    <img src="<?php echo asset_url() ?>images/icons/4.webp" alt="Glimpse of Digital Roadmap for your Brand Icon">
                     <p class="m-0">Glimpse of Digital Roadmap for your Brand</p>
                 </div>
             </div>

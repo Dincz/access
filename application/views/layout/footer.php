@@ -7,11 +7,11 @@
             <span>Crezvatic believes in understanding your business and then Develop a plan with you to capture the
                 digital marketing world</span>
             <div class="social d-flex flex-nowrap gap-3">
-                <a target="_blank" href="https://twitter.com/crezvatic/"><i class="fa-brands fa-twitter"></i></a>
-                <a target="_blank" href="https://facebook.com/crezvatic/"><i class="fa-brands fa-facebook-f"></i></a>
-                <a target="_blank" href="https://www.instagram.com/crezvaticdigital/"><i
+                <a target="_blank" href="https://twitter.com/crezvatic/" aria-label="Visit our Twitter page"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blank" href="https://facebook.com/crezvatic/" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/crezvaticdigital/" aria-label="Visit our Instagram page"><i
                         class="fa-brands fa-instagram"></i></a>
-                <a target="_blank" href="https://in.linkedin.com/company/crezvatic"><i
+                <a target="_blank" href="https://in.linkedin.com/company/crezvatic" aria-label="Visit our Linkedin page"><i
                         class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
@@ -39,7 +39,7 @@
                 <a href="<?php echo base_url() ?>website-design-and-development">Website Design and Development</a>
                 <a href="<?php echo base_url() ?>best-seo-company-in-Mumbai">Search Engine Optimization (SEO)</a>
                 <a href="<?php echo base_url() ?>social-media-marketing-agency-near-me">Social Media Marketing (SMM)</a>
-                <a href="<?php echo base_url() ?>ppc-service-in-mumbai">Pay-per-click (PPC)</a>
+                <a href="<?php echo base_url() ?>ppc-service-in-mumbai" aria-label="Learn more about our Pay-per-click advertising services">Pay-per-click (PPC)</a>
                 <a href="<?php echo base_url() ?>video-marketing-agency">Video Creation</a>
             </div>
         </div>

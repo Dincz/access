@@ -467,6 +467,18 @@ Conversions And Increase Your Business Revenue.">
     <!--WOTNOT START HERE -->
     <script src="https://app.wotnot.io/chat-widget/3zu2NtiRKJKk030405291044OYMW3DJk.js" defer></script>
 
+    <!-- Google Tranlator script -->
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
 </head>
 
 <body>
@@ -497,32 +509,68 @@ Conversions And Increase Your Business Revenue.">
             background-color: #fff !important;
             transform: translateY(-2px);
         }
+/* Hide the Google Translate top banner */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* Prevent body from being pushed down */
+body {
+  top: 0px !important;
+}
+
+/* Hide bottom right Google Translate pop-up logo */
+
+
+/* Optional: adjust font or spacing for the dropdown */
+#google_translate_element {
+  font-size: 0;
+}
+.goog-te-gadget select {
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+
     </style>
 
 
-    <div class="container-fluid py-5">
-        <div class="accessibility-controls py-2">
+    <header>
+    <div class="accessibility-controls py-2" role="banner" aria-label="Top header">
             <div class="container">
                 <div class="d-flex justify-content-center gap-3">
-                    <button onclick="changeTextSize('decrease')" class="btn accessibility-btn" title="Decrease Text">A-</button>
-                    <button onclick="changeTextSize('reset')" class="btn accessibility-btn" title="Reset Text">A</button>
-                    <button onclick="changeTextSize('increase')" class="btn accessibility-btn" title="Increase Text">A+</button>
+                    <button onclick="changeTextSize('decrease')" class="btn accessibility-btn" title="Decrease Text" aria-label="Decrease text size" 
+                    >A-</button>
+                    <button onclick="changeTextSize('reset')" class="btn accessibility-btn" title="Reset Text" aria-label="Reset text size" 
+                    >A</button>
+                    <button onclick="changeTextSize('increase')" class="btn accessibility-btn" title="Increase Text" aria-label="Increase text size" 
+                    >A+</button>
+            <div id="top-header">
+
+    <div id="google_translate_element"></div>
+    </div>
+    <!-- but here its not Visible -->
+
                 </div>
             </div>
+            <div id="top-header">
+    <!-- Add it wherever you want it to appear -->
+     <!-- its is here Visible -->
+  </div>
         </div>
-    </div>
-    <header>
         <div class="container d-flex flex-row flex-nowrap justify-content-between align-items-center py-3">
             <div class="right">
                 <a class="menu d-flex flex-column flex-nowrap justify-content-center align-items-center gap-2 px-3 py-3"
-                    data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" aria-expanded="false">
+                    <span class="visually-hidden">Open menu</span>
                     <span></span>
                     <span></span>
                 </a>
             </div>
             <div class="left">
                 <a href="<?php echo base_url() ?>">
-                    <img src="<?php echo asset_url() ?>images/logo/white_logo.png" alt="logo" title="Crezvatic">
+                    <img src="<?php echo asset_url() ?>images/logo/white_logo.png" alt="website logo" title="Crezvatic">
                 </a>
             </div>
 
@@ -539,13 +587,15 @@ Conversions And Increase Your Business Revenue.">
                 <div class="btn2 right d-flex flex-row flex-nowrap align-items-items-center gap-3">
                     <!-- <a href="tel:<?php echo PHONE; ?>" class="button-85 call px-4 py-2"><?php echo PHONE; ?></a> -->
                     <a href="tel:+91-86575 54091"
-                        class="button-85 call px-4 py-2 d-flex flex-column flex-nowrap justify-content-center align-items-center">
+                        class="button-85 call px-4 py-2 d-flex flex-column flex-nowrap justify-content-center align-items-center" role="button"
+        aria-label="Call us at 86575 54091"
+        title="Call Now">
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 24 24" width="30">
                        <path d="M0 0h24v24H0V0z" fill="none" />
                        <path fill="#FFFFFF" d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z" />
                     </svg> -->
                         <!-- Call Now -->
-                        <dotlottie-player autoplay loop mode="normal" src="<?php echo asset_url() ?>images/call.lottie">
+                        <dotlottie-player autoplay loop mode="normal" src="<?php echo asset_url() ?>images/call.lottie" aria-hidden="true">
                         </dotlottie-player>
                     </a>
 
@@ -567,7 +617,7 @@ Conversions And Increase Your Business Revenue.">
                 </svg>
             </span>
         </div>
-        <div class="offcanvas-body d-flex flex-column align-items-start gap-2">
+        <div class="offcanvas-body d-flex flex-column align-items-start gap-2" >
             <a class="w-100 px-4 py-2" href="<?php echo base_url() ?>">Home</a>
             <a class="w-100 px-4 py-2" href="<?php echo base_url() ?>digital-markting-consultant-near-me">About</a>
             <a class="w-100 px-4 py-2" href="<?php echo base_url() ?>digital-marekting-blogs-and-articals">Blog</a>
