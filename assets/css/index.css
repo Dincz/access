@@ -843,7 +843,7 @@ footer .box a {
     color: #fff;
     font-weight: 300;
     transition: .2s;
-    font-size: 14px
+    font-size: 0.875rem; 
 }
 
 footer .box a i {

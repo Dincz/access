@@ -65,7 +65,7 @@ table.dataTable thead th{
 }
 
 table.dataTable tbody td{
-	font-size: 14px;
+	font-size: 0.875rem; ;
     padding: 20px 10px;
 	@include respond('laptop') {
 		padding:10px 15px;

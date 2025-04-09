@@ -4,11 +4,22 @@
 <head>
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TC9JSJM');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TC9JSJM');
+    </script>
     <!-- End Google Tag Manager -->
 
 
@@ -462,44 +473,46 @@ Conversions And Increase Your Business Revenue.">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC9JSJM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <style>
-    .accessibility-controls {
-        background-color: #4e0405;
-    }
+        .accessibility-controls {
+            background-color: #4e0405;
+        }
 
-    .accessibility-btn {
-        color: #fff;
-        width: 45px;
-        height: 45px;
-        border: 2px solid #fff;
-        border-radius: 0.5rem;
-        background: transparent;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        display: flex;
-    justify-content: center;
-    align-items: anchor-center;
-    }
+        .accessibility-btn {
+            color: #fff;
+            width: 45px;
+            height: 45px;
+            border: 2px solid #fff;
+            border-radius: 0.5rem;
+            background: transparent;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            justify-content: center;
+            align-items: anchor-center;
+        }
 
-    .accessibility-btn:hover {
-        background-color: #fff !important;
-        transform: translateY(-2px);
-    }
+        .accessibility-btn:hover {
+            background-color: #fff !important;
+            transform: translateY(-2px);
+        }
     </style>
 
-    <header>
-    <div class="accessibility-controls py-2">
-    <div class="container">
-        <div class="d-flex justify-content-center gap-3">
-            <button onclick="changeTextSize('decrease')" class="btn accessibility-btn" title="Decrease Text">A-</button>
-            <button onclick="changeTextSize('reset')" class="btn accessibility-btn" title="Reset Text">A</button>
-            <button onclick="changeTextSize('increase')" class="btn accessibility-btn" title="Increase Text">A+</button>
+
+    <div class="container-fluid py-5">
+        <div class="accessibility-controls py-2">
+            <div class="container">
+                <div class="d-flex justify-content-center gap-3">
+                    <button onclick="changeTextSize('decrease')" class="btn accessibility-btn" title="Decrease Text">A-</button>
+                    <button onclick="changeTextSize('reset')" class="btn accessibility-btn" title="Reset Text">A</button>
+                    <button onclick="changeTextSize('increase')" class="btn accessibility-btn" title="Increase Text">A+</button>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+    <header>
         <div class="container d-flex flex-row flex-nowrap justify-content-between align-items-center py-3">
-
             <div class="right">
                 <a class="menu d-flex flex-column flex-nowrap justify-content-center align-items-center gap-2 px-3 py-3"
                     data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -583,50 +596,10 @@ Conversions And Increase Your Business Revenue.">
             </div>
             <a class="w-100 px-4 py-2"
                 href="<?php echo base_url() ?>career">Careers</a>
-                <a class="w-100 px-4 py-2"
+            <a class="w-100 px-4 py-2"
                 href="<?php echo base_url() ?>contact-us-for-best-digital-marketing-services">Contact Us</a>
 
             <!--<a class="w-100 px-4 py-2" href="<?php echo base_url() ?>website-templates">Website Templates</a>-->
         </div>
     </div>
     <!-- end  -->
-    <script>
-    // Function to change text size
-    function changeTextSize(action) {
-    let html = document.documentElement; // Target <html> instead of <body>
-    let currentSize = parseFloat(window.getComputedStyle(html).fontSize); // Get root size
-    let newSize;
-
-    switch (action) {
-        case 'increase':
-            newSize = currentSize * 1.2; // Increase by 20%
-            break;
-        case 'decrease':
-            newSize = currentSize * 0.8; // Decrease by 20%
-            break;
-        case 'reset':
-            newSize = 16; // Reset to default (match your base size)
-            break;
-        default:
-            return;
-    }
-
-    // Optional: Set min/max limits
-    if (newSize < 12) newSize = 12;
-    if (newSize > 32) newSize = 32;
-
-    // Apply the new size to the root
-    html.style.fontSize = newSize + 'px';
-
-    // Save preference
-    localStorage.setItem('fontSize', newSize);
-}
-
-// Apply saved size on load
-window.onload = function() {
-    let savedSize = localStorage.getItem('fontSize');
-    if (savedSize) {
-        document.documentElement.style.fontSize = savedSize + 'px';
-    }
-};
-</script>

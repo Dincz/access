@@ -65,7 +65,7 @@
 .countdown-section {
   display: block;
   float: left;
-  font-size: 14px;
+  font-size: 0.875rem; ;
   text-align: center;
   text-transform:uppercase;
   letter-spacing:1px;
